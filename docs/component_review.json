@@ -1,0 +1,1960 @@
+{
+  "status": "passed",
+  "components": [
+    {
+      "path": ".github/workflows/checks.yml",
+      "sha256": "af55c432a961748c8eafaa53d42d2fc362ab2181805ee7881dbb6771e50cf8ef",
+      "kind": ".yml"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5e282bb4c17bff062466b28b65799fa3b30f0579e591c7c2153ae661a06dda80",
+      "kind": ".md"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "e8f2b1efc03a944053c452012e8c2f037ee0c5e0669b041c5595657f9a8137be",
+      "kind": ".cff"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "da85cb0b1fe2fa087719509ed4e2d4c19763d2557cd82fe2433c0a5eb14978c9",
+      "kind": ".md"
+    },
+    {
+      "path": "README.md",
+      "sha256": "de4124848d20e1995c61f72488307209637f778784b08ccb2a87f04383127408",
+      "kind": ".md"
+    },
+    {
+      "path": "configs/ebm.json",
+      "sha256": "9a89ce04b34d69db2513e486ead7d5792b3e318f9e3406f523b95bda7974c663",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/sampling.json",
+      "sha256": "fc194ecef7624cd149e38f246ce57f6b3f367789595cf1b96462a171fde51922",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/component_review.md",
+      "sha256": "5ddc9eeac3cf1d82a1690035f8848edc79e7246814e0995bf528d8bf8d6e3438",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/data_and_protocols.md",
+      "sha256": "167c935e43abe34deb972f3687dc887b5ce09934341558c13784762f9bdab671",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/diagnostics.md",
+      "sha256": "15d061196ffcf7918df5a897943afc03984ae2e10f0bcee07aacbd3539c84736",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/experiment_index.json",
+      "sha256": "81b1e6bd44726f112aa38b2d11f4df8b954d59617ebc15e7ecef6853cfef5f77",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/explorer_browser_validation.json",
+      "sha256": "293ddd20e735b91c0106015c3b3a95d22da6e1f4f732414a25dc6638b6a69b5a",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/explorer_manifest.json",
+      "sha256": "4cc68007be3213fd419117f288a423b66541cb3901014f7b55cbefe04cd5bf46",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/notebook_execution.json",
+      "sha256": "1ea2c6a67dc259ac1eccfb0b49e62a8b821bd5d2bbf8d4512b3a1fed5f53b995",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/publication.md",
+      "sha256": "de70a3df348160b96f78d5dcb98ac6e9b0c294dd738900a4b0e45a9fdf081336",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/release_checklist.md",
+      "sha256": "4d8d062ca6a0b573ee1a38f8b5c2035db0cf0c9e307b3b0458278b390cf14896",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "sha256": "ec367c9c3a4ba93ca6566f48a5659dc1cb96533fb1a13e14cd7fcd67c65309a5",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/results.md",
+      "sha256": "5e85af8681f6ed1ec2df9864bd14031b0109f13cf5b434b2e1dfc350571d3bc8",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/theory.md",
+      "sha256": "ccada92282401fc221cc90b70ece9d450cbdd9043eeaeb10df5ec57bdf2481c5",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/validation.json",
+      "sha256": "84aeff86f4b6d89ddb5041ae0ba2e85d17374335993889c3194b343c322378f5",
+      "kind": ".json"
+    },
+    {
+      "path": "legacy/manifest.json",
+      "sha256": "222c4a49620e4d3ed37104ad0da49a8707e2ab5a1eea9fd06e23573a9e700918",
+      "kind": ".json"
+    },
+    {
+      "path": "notebooks/01_targets_and_rejection.ipynb",
+      "sha256": "d3e2832b375f13de5114a0317d9ecb1980e2907b639f8d401ec1f912b0461c41",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/02_metropolis_gibbs_slice.ipynb",
+      "sha256": "8d7f9467a0740056722edd7b1c60163b945959108ca1c19bd0e4c6b997179486",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/03_ula_bias_and_mala.ipynb",
+      "sha256": "9075af72b51837a70aebbd6ece396fa9ee754dc4fa39923a32210ab0085920b4",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/04_hamiltonian_mass_and_adaptation.ipynb",
+      "sha256": "c040d0b810c52f1fa4e87e725b095a962b1266838037e984ed37afc9b14526f8",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/05_nuts_and_rank_diagnostics.ipynb",
+      "sha256": "7f5f252be2a8ac4944771818fee9668c3b85e126948aec0d8b863744a31ce78f",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/06_tempering_and_warmstarts.ipynb",
+      "sha256": "05d05eafc8ea4a808b7f3ab22195dda1792bf44f3016d67f758ed051338f4c99",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/07_funnel_and_reparameterization.ipynb",
+      "sha256": "17921c61677e9e0dd21869520a1ccba062c7f184b1b63647ec437e8c29462500",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/08_bayesian_logistic_and_sg_gradients.ipynb",
+      "sha256": "12422751c381f32d7c2947a7f480d55b85c685cfbce9c97aafb0721c24c50edd",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/09_conjugate_regression_prediction.ipynb",
+      "sha256": "788e5b90bea4dc9778fb0be6bfa73007adb2e3c17a9e42149290bada326e2506",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/10_energy_learning_and_normalization.ipynb",
+      "sha256": "b426b4a9b3f8f9f802a69b72423bf277b451e8d6e0467e5c46a136f6c0f2e62c",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/README.md",
+      "sha256": "0fd621970adcce1cfab548f149e38fb59793f9d0f6d13b9e2f6e7de32220d8c6",
+      "kind": ".md"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "638f2a68d42ed3882421277b2071df5eed68f034263f5dbe2d260a2288e4c079",
+      "kind": ".toml"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_42/energy.json",
+      "sha256": "7e4609399cb5bb459dc8ed5cd9279915bcaee477315df920ab6ba0bdeb75c69d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_42/history.json",
+      "sha256": "770575f80dcf35bdcd3a3444d3de7768e9f6f82bfd807eb71d9985f03cec97f2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_42/metrics.json",
+      "sha256": "e2c01abada5e3a6b82057946efe85d9aacc40f0785d36600a0e130e3fc6c0ea8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_42/run.json",
+      "sha256": "d7c7f1989d06c4c640f293e8e0feca96c26164b0672ec48d17e6d9e7403f875b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_43/energy.json",
+      "sha256": "5f9fc8c13c7237ec9b7a7dd6250ec59ed8c90164091bf964975430bce9f5a21c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_43/history.json",
+      "sha256": "6bf43b524fd91fc9bcc0dd37c3fb1ef9421dbbec3e94c5668ea1ad33256d5808",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_43/metrics.json",
+      "sha256": "832952d15d2a57607770461bda06a1764a4d3362d35a0124bb54beefd258b3ce",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_43/run.json",
+      "sha256": "016ee0e213923a411fa9d1aed2e68731153cc2d8db24277dd42670016b24de20",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_44/energy.json",
+      "sha256": "61eb536899088446ae1ba8b78a1b951cae63da7d50d3c0f35c77c20cd57ba977",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_44/history.json",
+      "sha256": "62fdffcf59383232284c9c74f809cacb8c3c8649bd851b2bce3c16b2e76aad13",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_44/metrics.json",
+      "sha256": "fc8176fd1e22c942aaadfd132838487a1130a9fb31ce7dad0f738e1caec2b616",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd10_44/run.json",
+      "sha256": "82eb9084e682e024e5579ce43a1706a72b84c93cee4353a5203b3f2fd01ff0e1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_42/energy.json",
+      "sha256": "4abc0e8cae369d4f1b3f7ff74b170b11bde3e823e268bf0f9fe78c942d83c03b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_42/history.json",
+      "sha256": "516018e68a973cd658b4f698eed255fbdd65696a50bca57926a2615208031bdc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_42/metrics.json",
+      "sha256": "7eafa079a54d2efc7896215cbde3722d015bd9cec8e96770e28d8c9793ca7289",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_42/run.json",
+      "sha256": "9ad78ab17d2de860da93c42d70ef98b55d3ce42dcd0ee6ea921f1b93766c6f6e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_43/energy.json",
+      "sha256": "150c15aac30ed13918889ac424db316887397514f6fb5357ae302edf9372bd75",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_43/history.json",
+      "sha256": "eb2c1134a612853552914afaf7f63789a604882bba19fcc3d325e2f29a897240",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_43/metrics.json",
+      "sha256": "c2ceeaa0dadb1c11f1897e3a28d3c00b358caa2f2bf071b96d1e23121d67c04d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_43/run.json",
+      "sha256": "4cf14b4c91c203f5e4a9119461a2a671dc8f73451e4242842e0acc3b193dc8e8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_44/energy.json",
+      "sha256": "0613b15b606f02c9a43115364a6493dd82f1ee328cbf76aa79a9f7433c5fe788",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_44/history.json",
+      "sha256": "06b63d7b3265501e5cf89110ed8971e411af48873cb24df4b6fe0e8022d4f139",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_44/metrics.json",
+      "sha256": "d35a69b3c50584e36fbc40ab50e3a2929bb45ba3a55a95dc5575064474e1e39a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_cd1_44/run.json",
+      "sha256": "f976215e23955017d52720bd278d6347670d783860556d9736734e8567fcdc39",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_42/energy.json",
+      "sha256": "ac1cdfbecd26be57d5dc3c63b07e831a5c195e2b4951dc396612ee21656e768d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_42/history.json",
+      "sha256": "694cda1de8474388ac8a1b6ecd654b9638c3e549a3a43594a6a53cb8ffc845ef",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_42/metrics.json",
+      "sha256": "81a033539801c2823146ea01d56b563ee822ebf1feb39a1bcc3619c98b9e2a4d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_42/run.json",
+      "sha256": "2e3d72e912ed2d2bedcef252d7fd4f3c1b6a82d9eed46e1d6d37c726949cba32",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_43/energy.json",
+      "sha256": "3f23c1ccc3231ef49d2753f4a8ca287b1f8c72fc132ba7f7f2e134cb814add23",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_43/history.json",
+      "sha256": "a3e80260e4dd09e47d3a2e37cd37bb9d3a094cd36e298fe4b3839e3c4f5cf173",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_43/metrics.json",
+      "sha256": "9c0d7b33df53d0633538de538176494ebfabe7de0d103141a4bb0a829caf2a6e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_43/run.json",
+      "sha256": "450242bf8f904c1ef58cffe278c3687e3f3259b67b0f163ef55b97ddfb44844c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_44/energy.json",
+      "sha256": "3e78f961574771534ae36cfee7cf643e1331c9b6d8d449cad93eb48d5de0e8c2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_44/history.json",
+      "sha256": "84c13c55267c31e75b9f75ee394963d094fa6b73afdbffaef16e342edce194c8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_44/metrics.json",
+      "sha256": "501d3566ea65e0fbaee220b55f5e197ad905232e7d073e24ffcb3936aefca334",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd10_44/run.json",
+      "sha256": "4d2241db5e7ff80e1e6f37487399bc62c0d326ed00a7a19f0d6c1202c1966f35",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_42/energy.json",
+      "sha256": "3463b98069d7d32aaa34d0fc6109df25f2efc4d227e5935ceff68fffa7e29899",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_42/history.json",
+      "sha256": "3a11db20882b3a9559bad32df1fc14251027b653388fe5487aec284dba1a03ac",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_42/metrics.json",
+      "sha256": "42f4859cab341f5ecfe23e6a5f71a077d148736d42d768f939ccf5d7b569b3bd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_42/run.json",
+      "sha256": "4525538afbb8317310fb856f35fe04b688a8e93f581f8c06e46ffd160f17c81b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_43/energy.json",
+      "sha256": "f1b800a2e4b0cb834691aa223de645578e1dab020993239e556c016e37731469",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_43/history.json",
+      "sha256": "d33b6d7ab48b936c5839c722d4a3b033b9ce680c6d75008d06c5bebce9d8de9b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_43/metrics.json",
+      "sha256": "febda20e463da1dead4f522bd825c9a72dc88974990b984c086c77bb2cd430e0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_43/run.json",
+      "sha256": "30c5b5cf8509315b3306142f3ca60824f74aafc98c192460cb9d3d7d01cd5e23",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_44/energy.json",
+      "sha256": "79a116328432d0fd8b830791423035a8d17eb21ee4f6ed692f012f644f6f2baf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_44/history.json",
+      "sha256": "6e616de73329e4d72c46d101d4b0a24345fcb5274d662acf92f2f04a2ffb215e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_44/metrics.json",
+      "sha256": "9ca3a2a01a3fe0d764aeaaaf721646b0fb214ef052fdd3acbf383a5a92f74464",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_pcd50_44/run.json",
+      "sha256": "5171dd0545e74c7d3bcec0282d04c74c1c731ae4c4b0cdcbe1bc9bc0c41ab0d8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_42/energy.json",
+      "sha256": "fd412b6a2696bb41aaea6496d651454d659448500dd8af94dd4cbc10084a3417",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_42/history.json",
+      "sha256": "bbbc28b7014b58d1a5c272e6cadc04a0ac35c25447c11f07c8adaf786ee1b912",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_42/metrics.json",
+      "sha256": "96c77b1793831a9984e7d6ed0e8ff01015c421ef29436821feb7d8b80a396f80",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_42/run.json",
+      "sha256": "652b21a0a6ef7d78f1cfb4586be0dd00c16993e9177b8d242351ba04139d2fe3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_43/energy.json",
+      "sha256": "931859f8edd493088ad51b36216a2533553e34dcd69d6ead4efb15a7652fe77b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_43/history.json",
+      "sha256": "693b7b747fef0fd3f830f372477618726b76da8058bc017d6c725fbc86c64263",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_43/metrics.json",
+      "sha256": "1f77943d82d3ef6c59c7594761ef1a2169347424c5dd8248176958e707f21fa6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_43/run.json",
+      "sha256": "267d9fef421ba083be448640d7ee60c3a6670d7467b62a8b6b4f0f8657e13156",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_44/energy.json",
+      "sha256": "b7fd897f82fdd795b4437c8db0077d55c467fa5a31e5f9d1fd72683e586f3ce2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_44/history.json",
+      "sha256": "f8d6899193e1c35ddec4fd596644b89ec7fb2c8f625ac81281ea04d5d4618fa0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_44/metrics.json",
+      "sha256": "c58676613a11c03a8a1a176e70cc9cd4a90ce6197e2093bea2a4f15c7b33897a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_quadrature_mle_44/run.json",
+      "sha256": "001d05b292876144c59ef169a458bf7d3e1fd5ab9b03dfb802ba0d695dbee42d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_42/energy.json",
+      "sha256": "082768192576313f86d45ab36ee3a528b3ff8632b0879581288938738b14b1b8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_42/history.json",
+      "sha256": "03552fe42a6fa27bfc325464ffed372e9437afb9c96395a90065eb24b33fb215",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_42/metrics.json",
+      "sha256": "89dfd00520f5c2d199fb1eccf37a499bd4130330741cf43df7a731704088df5c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_42/run.json",
+      "sha256": "4a75336a7835ebd9be184a91cb9166b6f8729d1f5d6d1852526fe0ba3d21114c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_43/energy.json",
+      "sha256": "89ca939356d4feb47ed0799c5686d23c5722b18990bbde56290a435284d90369",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_43/history.json",
+      "sha256": "ae915e26fb71376644baaf5c36ad0f915455b9ee0232b9dd83e06058a3188327",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_43/metrics.json",
+      "sha256": "0359528c4e116afb54312bcf46bfd30cc297746dfbf82210d6986c32aafed85b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_43/run.json",
+      "sha256": "785ecc590327cfdfca5b047a9860852034edd164616cb140a6d260fa5d238d7f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_44/energy.json",
+      "sha256": "170ac2a16461f940db6e7adb773feff9088ea4844efb89d7cc3fdb57ce3fbcc6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_44/history.json",
+      "sha256": "ca90991c55bd37924abfd73fe685d3c9e1acf4c6f42ab5831e48d5c0a92566a6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_44/metrics.json",
+      "sha256": "a7d85dbe7617360041f366d2d4cdb0b9a675100d25aee33b6c4c9d764a7d90bd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_mixture_replay20_44/run.json",
+      "sha256": "0857dd46ffe158f2989626df898574cbb01889ada22b1630d6cb00ba87b12d0b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_42/energy.json",
+      "sha256": "eb12a0f3cc653b43baf3f1da51d6ee11d1fc455c63fc00459e56454c103843b5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_42/history.json",
+      "sha256": "6778190d2471197dad09cb5cb8abe670b3d30092792030f56cb45c18fe33f383",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_42/metrics.json",
+      "sha256": "7365cf3884e70d9efb421caa1bb5abe7f99909ab56b1cf8fef69a7641cfabce3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_42/run.json",
+      "sha256": "4eb8a3bd76f1f848c7378a318f99ad092e537a6e1eeff0751ac2a1c8e35a05a8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_43/energy.json",
+      "sha256": "b4c5aca7e50959478b20cdf02f74af187d43bd571f79251a35314e26b0d00a22",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_43/history.json",
+      "sha256": "951e119f15b795ed71e8712d1f30f923ad5e74bc38f1504ad1dce66ef387d1fd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_43/metrics.json",
+      "sha256": "85564c8c9af02cb8448930ae0d3146949d0af3434b7fa59b7c7c1b65d3d9fc94",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_43/run.json",
+      "sha256": "0540b168169f00150a913ec0f64d85330fb49bde7992ac8e4c0370e3fa16eb4e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_44/energy.json",
+      "sha256": "986cf25727aa2914f8ab09c0a8116539068ab5fc7fe893fd773be71270eeecb1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_44/history.json",
+      "sha256": "0b449fc062be2962f1b0ec3582c971d85f205ca1bc2457e859388267c790c94a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_44/metrics.json",
+      "sha256": "927d83ae77abeca7cc2f84d991f6805c15f4f7f58b190ba7af0585da121ad543",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd10_44/run.json",
+      "sha256": "89ca3ab47fdb043df21d3e3afadc00a0e25308a016abfe7147f2c1ffa5a28184",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_42/energy.json",
+      "sha256": "58c7cf8dae43703ff893768cb82386c542a161f8a3aa71564814c3813d842e6e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_42/history.json",
+      "sha256": "c8dda794a4a6d9eaac0128a137522f560d8ada166e7185930238ffd93b4bda6e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_42/metrics.json",
+      "sha256": "535ab4dffc10e28dc96a454815a64a76694a3cab07286e625239b52aaa77a54d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_42/run.json",
+      "sha256": "34d1c10535ffcc3548a363ab2583aff5e222ce0809dade8647cd18b320f772c7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_43/energy.json",
+      "sha256": "d0d5707ab98b1ead1a9157517182b2cf5c0e37e0f66b5f382662e9db99eefbe5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_43/history.json",
+      "sha256": "e69b40b1f9b9e1ff902a8bc77f8e7fbc498f6d5fcee81e6e357e77fa371789b2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_43/metrics.json",
+      "sha256": "d13929861ff9ff7018ddfd9576f4816938b7a869d56aada846a46f80e7b19e8b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_43/run.json",
+      "sha256": "0c9f3a449fd8d015d677eb7c6d26c4e947ac3be2bd1e57f1c180326ec689f776",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_44/energy.json",
+      "sha256": "7c6125e85f7754b3fed11c2e60ec190bbe2214ef271fb5c087ca4c98227473cf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_44/history.json",
+      "sha256": "03df382abadd1696b4ae97861d6de13ae988fa0925ca4ec81eef801829fbb6b0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_44/metrics.json",
+      "sha256": "a1533e80036fb4d83efe3b33d2ec1c300570a3bb57827bddce23948cd83dd9d0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_cd1_44/run.json",
+      "sha256": "b76a1c261325f1a33e7493618b2b27bda4233020b2b5184e2e7891853886fbcf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_42/energy.json",
+      "sha256": "16b9b07efe161006df7f20c03b31bbd63fc979a3ce29b687425d27dd16a55de4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_42/history.json",
+      "sha256": "eb25f568dd739eaeeefc90adb84fb76e3671b2fd0f06663ea07b5a3d58411968",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_42/metrics.json",
+      "sha256": "e3cd13baac3270327f64392d2f41fd285228b3907af3854bdc94b07c927046e3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_42/run.json",
+      "sha256": "85e4ea4048668f50e66f1e115dd0bfeac5ca57359065b79de2a56a3c0ca16484",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_43/energy.json",
+      "sha256": "125cc7bd398d8d55e5491c878688412a6da14b7d34d5787ecad7173785f0e478",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_43/history.json",
+      "sha256": "faa2fc442db976c86c9da152c371ad4864e41b52835262a65a56d46424bff41e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_43/metrics.json",
+      "sha256": "06d75b975732028016abab310760d49422d10d0cb3e27a0df6df2d5993c75100",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_43/run.json",
+      "sha256": "53785b294ceaa101e9468a8823fca04208614443a4aef718e56dabad3af3c8d1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_44/energy.json",
+      "sha256": "728a5dc9b19bbee6670b653f9f1192b30561e11cb432e269a4f633e2a1f470d4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_44/history.json",
+      "sha256": "f6a00f76ec832a816163c9047e925267aead59b835a2935bc8524c132bc79015",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_44/metrics.json",
+      "sha256": "b94c6ef5ecb8e66b1ddae3cabdb094693ade63fe016a211bb14ac14b16a473e6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd10_44/run.json",
+      "sha256": "7e1bf421c777d3ac293726ad42319de24a909e7d3a748e5b013ce07848791948",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_42/energy.json",
+      "sha256": "fd232d18b50c7e1ec3e1b6839e56f2076d359e29760cb7cc9b5af1a4489bcddd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_42/history.json",
+      "sha256": "f8abebaebd543a915916af5d1b42052e169b81855556b1f60ff9d8eaff0b8cf2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_42/metrics.json",
+      "sha256": "d24b1e49fe0a5f4a09616a770150c10dbf3f9bb73a5f122382743121042b6d62",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_42/run.json",
+      "sha256": "b39159e72c0576e7060d5073ad2253365712a5925078bfff5250a164bd91d6ca",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_43/energy.json",
+      "sha256": "005d094d17b913ec3ffda37a5dfde8ebe7289f6f77ede95ecbd97c5672d75b74",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_43/history.json",
+      "sha256": "c991438cd908713e6cba90ebf8c90fe3baa7f81c5be73e489107595637aa8427",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_43/metrics.json",
+      "sha256": "e1c4e6c831347ed3404cd788bdcc9789ccb4acd7a24d588740ee762959558985",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_43/run.json",
+      "sha256": "03830c9319683bca23634f16f7d68949df0f8f1734f5aeb50d0e8d515eaf36b1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_44/energy.json",
+      "sha256": "8a384a23eb8e665810699019701abfccceaa7b205ca7386468a38bd302d0f152",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_44/history.json",
+      "sha256": "39a9ec895428b1db6fc45241b72cec8aae4429cf2e9b52dfe125926f972aa118",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_44/metrics.json",
+      "sha256": "c826a2a613510d8818aa66397ab20bb5871505e63410d66b16bdfd220e4e7bac",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_pcd50_44/run.json",
+      "sha256": "8839d0468212d58fa37fcb15ba11c4e4a462474133ff722f7cf61a16ddc6b470",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_42/energy.json",
+      "sha256": "02726844fbeee399edff87a070fcdb80d9d74dabf77a3cbe36f9a3357484ba1c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_42/history.json",
+      "sha256": "63d82b35b58ab961782f175305aaa8a4db02e7a11c24406a0da578612d8c8e9a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_42/metrics.json",
+      "sha256": "014d77a1432ac011d33ccd21ccf13a802b774947911f17e4205cfa5568c7605a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_42/run.json",
+      "sha256": "f3b2b62822d898907abf7df9a1274032f6e682122b4fb4de9bb555b11c47f321",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_43/energy.json",
+      "sha256": "c6bb9619cc21397417e8fc0750cac67715ae650aa838eb4d8cf9e9ec2728eee8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_43/history.json",
+      "sha256": "1a3d2fe88a66b5994a535e740040cd5ad534610adf08a653185391513808f5c2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_43/metrics.json",
+      "sha256": "d5bd23f3ba05283b6d1612d80df1efca67e7a5036d1d809f25f3418b24d8a692",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_43/run.json",
+      "sha256": "da8b178a801d4aafd4a4d3361e39c6995d9187fcf31cef86e12186458acf6cbf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_44/energy.json",
+      "sha256": "3e97f262083a111fca3b8cb40ae6f7ec9e156d7e5013a3694460bcfe9d195e6a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_44/history.json",
+      "sha256": "6be355b9246c5d7de71bf18728472c09c90238d24f0e9769da84c8dec0ebcba0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_44/metrics.json",
+      "sha256": "eb59f62e68c6f1f01d1994931f1ecbc96b18da676d7da8155180f99c2fbbbf27",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_quadrature_mle_44/run.json",
+      "sha256": "d44feed205375353de8c84421b4ef6e9052f8f6cf87ce14b0bde6cc9449740a9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_42/energy.json",
+      "sha256": "3ee7402bed3174fcfe45d0a4c78868b1dc42939e6ac37e20b1ad63df3b5ef306",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_42/history.json",
+      "sha256": "3d01bf84c2017ceeb9f1da4fa5ec9732760efc79a724a6c80389b9128d0fade1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_42/metrics.json",
+      "sha256": "78f2e94b7bf30ba3115cb09c3bbdd971b575fcd9700303a43d15af6f1dc9acf4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_42/run.json",
+      "sha256": "3b5de44d4726f0b96693599556161d56a1fbe86b2182e16513d9780e1b5da915",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_43/energy.json",
+      "sha256": "df00962879e76abbc685e4309357e43100542ff3725ea3007d3d252561d8d81d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_43/history.json",
+      "sha256": "5de114900de22de3987f417a057135599e582f88c44a86b6ad4f84d603b83347",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_43/metrics.json",
+      "sha256": "f1e77c6bef391764312475cd7321ec0892ecda417fc65c391dade96e6101ab9f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_43/run.json",
+      "sha256": "e0e61bdcb7987dd305101a94efff15c345ea13984c9cf440072aeac6b1227e12",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_44/energy.json",
+      "sha256": "2206064cfdb36a63cc5306192250e2e74e33be4fe9e4122ee058116df8fe8d99",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_44/history.json",
+      "sha256": "350123d713849e32016a55668aaf82799078df6500c9e72cc62be760fe0a93a0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_44/metrics.json",
+      "sha256": "39b577f4f89952cfc9d3f57b71721cf358842585310a9900f1653f7e5f15748a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/ebm/ebm_moons_replay20_44/run.json",
+      "sha256": "c64776a4683a35059ca5aec1a0965d13472f83886c302dd17f904c169e5ddd7f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "b83631384dd39c14fea7de7a89925e96ea0829bc2229790ab3c5d6784bb5f479",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "d61a348b6bb3f473f591180e42d54b6c3596d652183f21bfe0b2bbd0a92c355b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "4737eb68a116a4e08492cdfd0ecf43376432394404e23206b8d88f8f10236cc9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "10437e73cb1ccb65b36282c1369c4a0838701d211d450d3ad4ac7c8e373e5e4d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_hmc_dispersed_0.12/metrics.json",
+      "sha256": "105a7e3b0a80858b550ba8954f5c1062bd493caef9e0bafb6e6b7233faa2be85",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_hmc_dispersed_0.12/run.json",
+      "sha256": "911121ed948852076e049cfb6f99595b3c85364538ce2426cc87bd516eb16c4b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_mala_dispersed_0.02/metrics.json",
+      "sha256": "6eb2a3a03c1de01e17a0da4fd72aad20e16d367ef1049761175a8dea33f35423",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_mala_dispersed_0.02/run.json",
+      "sha256": "a00513dfd9bed76c3bf1efcb88038ba52384387ada0c7e27f301ad4f0e17b905",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_nuts_dispersed_0.1/metrics.json",
+      "sha256": "1990abceef1837af9550ff3f68e2c22223b8a9ea002a861292986856f84a225a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_nuts_dispersed_0.1/run.json",
+      "sha256": "fa0b9f63f399ad07739e8ced11cd4c0e5c16859c8367fad3cd07af84ace49db1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_rwm_dispersed_0.6/metrics.json",
+      "sha256": "d9ac14d2dc791751fa89313a8c52e2523b016c2ba1af4d31a155469c5777c7c4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_rwm_dispersed_0.6/run.json",
+      "sha256": "4bd10a0f94bca68042064393e2d1bc667fcc12b09ba5a458f56e3afe0e81bf99",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_slice_dispersed_1/metrics.json",
+      "sha256": "f09a5ee99d0215e78766cc656afff9550cfd03c7f35eb6a36b25c482d5c51bf8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_slice_dispersed_1/run.json",
+      "sha256": "33f80043baff47a1cb71c7b7e7872349e27f2ffdc57d78cd023445ece8cd9060",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_ula_dispersed_0.02/metrics.json",
+      "sha256": "599b29c27a5901173f28f4158452b0148761fe2b431f3e36945ee58940d0d38e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/banana_ula_dispersed_0.02/run.json",
+      "sha256": "fb9f2664fd98315fcc9d27fc0c1642544c17f30ba23d2c1aa0292fff519b40aa",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "3e46bbf3bb99c3c1ea69f3b5654f4852b7f16f9172341f4eba7d78a23c729415",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "829ed98510d2d591c6997af02ddcfda16a5759b8831673b20870d00adce4a1d1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "98cb2b5c5a12a9daf8d92bc54b743eb35de651d0900c981f75ac9f2063b63ce1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "1d640e578bd149c072968c157bfb4b55dbea5e86a4049fbaff7cb7addf987272",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_hmc_dispersed_0.12/metrics.json",
+      "sha256": "285662e361652fc90930d06b7faee7870e5880d3514758657cb2d9e69acf5ac2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_hmc_dispersed_0.12/run.json",
+      "sha256": "7e071db1209168c369556e7b5450745e128b5d378134159eea2fa5e5e32334fb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_mala_dispersed_0.02/metrics.json",
+      "sha256": "979400845fc6558c8d0ecc9cc5004665b50a0ce260e2139b4c7e94e205884cad",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_mala_dispersed_0.02/run.json",
+      "sha256": "569f98a85181133bd65517d175fbba26d3de4cfbd260d4ab4109e868af09fefc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "6a44daa4b4d3d40a6397cd5071cfbe098df53945f145600d12761e39dc951d64",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "7ed20802fe0e62b6773e51b4ee4eb5465a14fe0b1c8bf249fb5b20c0583ed6ed",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "0fa429e7d91aac20e5952cbba58621379a347960a45ef9e26802ae6ae71bf44a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "b2fbb0796e71e4f55d76c5aa7c3934e64a081472ea3e201db4766b382a5257a6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_hmc_dispersed_0.12/metrics.json",
+      "sha256": "306a31b20875c590f989ed52ac28ed74365795252c31e1a509920b5a256aa705",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_hmc_dispersed_0.12/run.json",
+      "sha256": "c79655967df482971cf9f2b32ce9e3675307c0f15fbf8a08a144cb6f99bf1bfc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_mala_dispersed_0.02/metrics.json",
+      "sha256": "c5d668ff7142b9f84ec702b2af87d07f43265c7f7e57d93a04747ae76c7b0983",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_mala_dispersed_0.02/run.json",
+      "sha256": "c13b0f85d11169424264f1bfc3e152822c40a88fc2bb9a1b6ac2bd9b745810d9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_nuts_dispersed_0.1/metrics.json",
+      "sha256": "9f5f5f828095c1905df5e52e5751b944a546cabcc9e7e1056f7d1f94eb388213",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_nuts_dispersed_0.1/run.json",
+      "sha256": "8ed41c86b199438f1665ba665f5fe8b7446483f464e16ed4fe69623616355417",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_rwm_dispersed_0.6/metrics.json",
+      "sha256": "8eef30db1059e20230b3d3f3231b39dde0177db66990dd01fa292b744231a780",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_rwm_dispersed_0.6/run.json",
+      "sha256": "c5937b1eda75799ee5193e2719f4c52a89751c55330c544ad95041fb43cac014",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_slice_dispersed_1/metrics.json",
+      "sha256": "21675e3c4eecee5e1f07c9049b7d82c0a6a54d6e0a62518e541f8e551c2b18ad",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_slice_dispersed_1/run.json",
+      "sha256": "cadcbc52afb3437622a6382863998bcf9df2a8985c2eeada4e980a2471b9fcd3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_ula_dispersed_0.02/metrics.json",
+      "sha256": "fa02f2ce8a0d82a1e15de25d85a97ec4120bad87a9a0181b2fd97f5c13b06ce4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_noncentered_ula_dispersed_0.02/run.json",
+      "sha256": "b0339810fdb5ad406a84acb35c583ed088052f874d033b8f3b14a3c463af3c17",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_nuts_dispersed_0.1/metrics.json",
+      "sha256": "9d134808da15e2629752715dcb4e49f927e9feabd2e4023e039130b4c67d401b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_nuts_dispersed_0.1/run.json",
+      "sha256": "967f29b541f8378d746fccf120cfc0cabfdbd673297594b670cb5caedf2b0ba3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_rwm_dispersed_0.6/metrics.json",
+      "sha256": "065f9f3c00dc4ed7db2c36a4e83721565131279785838bf27ef0db1201531895",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_rwm_dispersed_0.6/run.json",
+      "sha256": "aa9937b3660d5712a3e57d00ede77004fecf8ed3852882af2fcaaada37f5228e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_slice_dispersed_1/metrics.json",
+      "sha256": "28cd5e5ec0cb7dc36bb26ac416ae43018adaa6816df93900260ab6ef83f8aa39",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_slice_dispersed_1/run.json",
+      "sha256": "8bb4040ca8f567d19848959f995071c76227f0c895b7e39394a19a2720c288ff",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_ula_dispersed_0.02/metrics.json",
+      "sha256": "f4e36959f2c71c05c3edf8ccd9d31a3ed359871685100f0bcadbf260f4d7f7bd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/funnel_ula_dispersed_0.02/run.json",
+      "sha256": "a89c361a9f2feb7ae656cd7197954e54afaeca01a05052769fc5141ddcf9a962",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "56fe8855117cffff9f058745238877586a977a0512ac46c358ebeb9e8aaab99d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "2fa72acb31c4a9f4857072ca359dce11ef0886f4a220c7ad57f5b250fa1534bf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "2791307d2652b69659fb417899b255e69e1fa06b27c1d871491adb0f68b06a76",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "38449acfe21c5f7f78f51cee8963eaab52b11700eccca422aad14163eefd94b9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_gibbs_dispersed_1/metrics.json",
+      "sha256": "aecc0181aba3d544d940dc442bc1a85e1a394b7dab5162ec78da58c12cce9054",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_gibbs_dispersed_1/run.json",
+      "sha256": "09974c3b59043ce0bac6b8ba89d51be20b9ebbda8427614152b16e96cd8265fd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_gibbs_warm_1/metrics.json",
+      "sha256": "aab1dfdac22d7d9897071b5d5e003e23b26a555f5d71af18a6d58abeaff2ce86",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_gibbs_warm_1/run.json",
+      "sha256": "7844d5a374e7448e6ef81cd6b6e37d4bb2046f03f66616184266f1dae10356bc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_hmc_dispersed_0.12/metrics.json",
+      "sha256": "b3e1b7ce9233b9163e623b242211e360d622e4bc0a2b724c4f4d221dbf3ba330",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_hmc_dispersed_0.12/run.json",
+      "sha256": "c533c7a38ba62ea9c74eca689f0096256cc3f579007d589ef6ca8656ccb06b58",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_hmc_warm_0.12/metrics.json",
+      "sha256": "d824f96010e1c0be9edd1527848689fe4b35a74bbab1f2b1fbef68c65c627048",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_hmc_warm_0.12/run.json",
+      "sha256": "3e3fe38bc31e83654f84da114afd516283738aed7de96d43f0c84fd4cec6cebe",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_mala_dispersed_0.02/metrics.json",
+      "sha256": "b4be1ac8a6f93bb76bc33eddb625a46ccecf12546b71c200c0fe9f0c4bf61813",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_mala_dispersed_0.02/run.json",
+      "sha256": "50882355837d5c32b5f0a94c113eb0cf0dc2ad28cc1a52f329e650fb42624b5a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_mala_dispersed_0.08/metrics.json",
+      "sha256": "38179f9d3863be1fe391dbc9b214ccf5d2e2dc4aaca87285d5f0ce4153676bc4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_mala_dispersed_0.08/run.json",
+      "sha256": "77b65ab6e57c792d0a25976f8452b3c1268e57e5b05fcbbabc9298f68fa6ae3d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_nuts_dispersed_0.1/metrics.json",
+      "sha256": "d6a32ce2b07d483377d98892f4f0a3c8b40116ac88c0ac424c8998925b337013",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_nuts_dispersed_0.1/run.json",
+      "sha256": "2095e8d88cf7bf2cb24e382749d0b9edb1d14c430751f3821baff14abf458dbd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_nuts_warm_0.1/metrics.json",
+      "sha256": "f008399d3ad63e3a40fd13994bc5c22c97bbb17289c8ab3aa3bc9ceb71759075",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_nuts_warm_0.1/run.json",
+      "sha256": "adcd00f34e9049b2e127e3890e665253195d437479b05ac2aaca92e423981e2c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_rwm_dispersed_0.6/metrics.json",
+      "sha256": "a8e33546ea7993dc93509791bdf2cc6b214852cf774cfd894d8e5701d3ae1bf0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_rwm_dispersed_0.6/run.json",
+      "sha256": "e7529494a8c4e300a2ff2354516e03835c36ab5dd84ef9d201b2bfeead85b008",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_rwm_warm_0.6/metrics.json",
+      "sha256": "bb2222eedc92bf73f1a8666876a5cf78ffc89da0f9c9933c903384361330363e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_rwm_warm_0.6/run.json",
+      "sha256": "8e3c1311d78f6137a264b4c2ec27721d3c9e6b72ba3dcc1aa41c02ce8c37846a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_slice_dispersed_1/metrics.json",
+      "sha256": "fc6fd89e0b8984a83106ecc322ba7c1ba291d109aa044c545cdb9c682ebc60c4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_slice_dispersed_1/run.json",
+      "sha256": "da778e95220ed5f5119215d020643720cb7eda69f7fea3f9dd00161fd16b82bc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.005/metrics.json",
+      "sha256": "64d7c5e2f430e6671e94b4450638c459a36e93d51827db4e8949bfe7eaeb5094",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.005/run.json",
+      "sha256": "e32d81c9c371f8a1cfbdf3abebeb4ebfc858bad46e8f62f63f621f53a0fa1e60",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.02/metrics.json",
+      "sha256": "9aa02233a0e67ada3961f356d44cb186713bf6aa31cd7862389a5dbef21f294e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.02/run.json",
+      "sha256": "dfadcfcba06606be2b47f72bc833576845d08d6c268379b6e0517fcd6da4073e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.08/metrics.json",
+      "sha256": "9bcb2baa14e09af98938075a2a805142d95f46b399d22d8f6b32fd11dd8797c1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/gaussian_ula_dispersed_0.08/run.json",
+      "sha256": "f22b4371c8332dd72a5190f7b935ee205067ac82ada321ec993874992807f9ea",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "f15ce246534c6c4db681a9270bc8700fd2f8eb4eb33e6818e0ddc5de36ec35a2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "b044d1600b778371fbd7ddeccbbb4c89359e6ad7e1772fe5ed191b4e8863eef8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "2be3ac4c689e782442ec33add61a5b442109ce16694b33ab34e7c01f704e78ad",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "9ff263d305320c1263b9971220ebd4c7c8b33ef1306730689f59489b29e08a9a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_hmc_dispersed_0.12/metrics.json",
+      "sha256": "fa323e6edafcd0e8f6ca4331343be6802b9c4b1a89872db610f9160c92ea9ff4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_hmc_dispersed_0.12/run.json",
+      "sha256": "302a9abd7a4a7a1811dab82215c9a9132a513a87542f15612717270c86b506ca",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_mala_dispersed_0.02/metrics.json",
+      "sha256": "b9e1ae064e4553ed32109ddcee3badb8eec9cc6b2bbd6964b2df8219a94a7e9a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_mala_dispersed_0.02/run.json",
+      "sha256": "b6d6fcf088b3dbdd964e3abd58600b8a168e1c321ebd6bc129a72206f26e7acc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_nuts_dispersed_0.1/metrics.json",
+      "sha256": "d63facc65e811f710764b56f2635d7e321bfcc9ec8c6e2a9ddc70ce16b82d4d9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_nuts_dispersed_0.1/run.json",
+      "sha256": "97cc22392af6f340ebf862a17925a330050b27b657dae9d7d512a4232ffeab05",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_rwm_dispersed_0.6/metrics.json",
+      "sha256": "9f63e218f28417cab4b01e973c4bdeea3cfde4f438a1e6bf132f9177fe6c8d79",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_rwm_dispersed_0.6/run.json",
+      "sha256": "b8d80c373eaf96cf19addbcf4daa35dfc11ffb1071b7eaf4066a9e8c382fd470",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sghmc_dispersed_0.0005/metrics.json",
+      "sha256": "d62cfd6f64a45cf201a258ff0f1951d158817303362323c373ccb8b94cd9c5c5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sghmc_dispersed_0.0005/run.json",
+      "sha256": "a3b344bb79752360aa27e06e6a8315bb4f20bf3f98fc7e8377c7aaf0e879fa42",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sghmc_dispersed_0.002/metrics.json",
+      "sha256": "94b26dbe2bfd36edaccdf8bd74e047b27099edf69fc7f86d3990f87f40831b9e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sghmc_dispersed_0.002/run.json",
+      "sha256": "b6fe7f55a800bcfa6313aa4899c259ac4d8b70d27f54b7b710233c8b0bf10332",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sgld_dispersed_0.005/metrics.json",
+      "sha256": "e73b835be2eb92df409f0ff0fbebf5ddc7037b436e241686d147d4723e120f41",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sgld_dispersed_0.005/run.json",
+      "sha256": "03d6d7e772e5a8dc87029efb6b467d245011441cbbd7ec55d25fab561f1cb909",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sgld_dispersed_0.02/metrics.json",
+      "sha256": "9c2cf4c3778c41c2332ad1df05c1c23282752d22df4ab7b4d76b4ca10ced2b69",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_sgld_dispersed_0.02/run.json",
+      "sha256": "774af34a737d552f4073384049334083c7fd5d5e0b4591f1b221fcad1ec01b3a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_slice_dispersed_1/metrics.json",
+      "sha256": "76d02bb6e8acc1ab30dc943f58c31b978bcc83877b19100c4fc73b611ab9f9ae",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_slice_dispersed_1/run.json",
+      "sha256": "954af3195c799664e27184d10fe7bd20382ab0dfe593256f9b7263e54f636d35",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_ula_dispersed_0.02/metrics.json",
+      "sha256": "9d07e1dcc46aa9890d236dfc87c7353ead521db3e81e23582f87e74c679a279b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/logistic_ula_dispersed_0.02/run.json",
+      "sha256": "db6f7bc0ed0906dd69b0c7dff1332c3017a7d7fe6ce7c385ff3e63d97eb4ee0c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "04edd0e1eb09a73333a22557f90a8a1b4d5db826327f5edd3a469b899abd5e88",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "9340199c1f1a157eb27ef0c2fcdddd6c99b79075b7a99ab33fa6e56564075f03",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "8c2b19e63545af6f64f551f209de691a1585edb500f060bbb885ef8c43f72b01",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "8a801d7cf48d00646481bc9789fe8185a3b66aa907c5d06e1af0bf1f101e2ad9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_hmc_dispersed_0.12/metrics.json",
+      "sha256": "fddaaaeb5a94243586b06971ccbbf2de463896f5d7ccc028ed94e32281c34342",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_hmc_dispersed_0.12/run.json",
+      "sha256": "d6ca9154639cd119d8a8332b6006fe1ea10e79499a7b2c26781545e8540d6832",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_mala_dispersed_0.02/metrics.json",
+      "sha256": "da363b48a256005c9a475fd020105a211ca6392f212dd25303190b9cdc16f95e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_mala_dispersed_0.02/run.json",
+      "sha256": "b1af38e15f67d0aa2cc50bfce46bf231689544c79062effb6b75f1fc4083f9de",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_nuts_dispersed_0.1/metrics.json",
+      "sha256": "5bed5d6f8ecbf87cf3cd3e2f79cf5a88b7260ec335f5124f01b85d858c96566c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_nuts_dispersed_0.1/run.json",
+      "sha256": "315f5dc58402a78658acb68156556c207cc2c217eea2caa661cb2d1e8c40351a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_rwm_dispersed_0.6/metrics.json",
+      "sha256": "6f5f55c446f0985db110f2b354d0e81c963945366718c342f41c3ea3fd08cc3c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_rwm_dispersed_0.6/run.json",
+      "sha256": "38c74049431ea65fea320f1f32cbff0ba9c3b27dffc4f0302c8bccedc207df5c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_slice_dispersed_1/metrics.json",
+      "sha256": "9e2c00adfe2c415dd9081a34256cba6ab6c6cc4f110aac4163a65534c1fca57f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_slice_dispersed_1/run.json",
+      "sha256": "a31b3917ee9d956f864c5ea1aecc598f3a375393ff60a98890e21ce7ea0ed590",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_ula_dispersed_0.02/metrics.json",
+      "sha256": "50feba1f0a5319698de4e880acb42eae1c2a50b4570d6f9c3fe521b53f8c82a0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/perturbed_ula_dispersed_0.02/run.json",
+      "sha256": "addb050e8df4bcbb16b0924f013cc101b57b7d4ad560e73b2d1ff47b07cf9d5c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "6d2c8f0c3f618a3b73a8d5a88bb23bd0037c539afb4fb37939b29bb35fa51a5d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "3e591fd6f75352a98abda2e84b2c585e1ae4e6f7f7f965e025a78e7ba5080080",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "be0c34968e308e33ba9ea3960ad47e80ddd678a52dd1693bd644f6caedfe590b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "7a909ff8b785b4c7c2122664110a50a0e52b96d38939970799ce14410126c0e3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_gibbs_dispersed_1/metrics.json",
+      "sha256": "587c39685b4eafa2acee221c123f1ac3089904cec9bd18a9c1743ede060c6afc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_gibbs_dispersed_1/run.json",
+      "sha256": "679c411224dc1359266daa4de6417c26a3f6a6d528e641bf740aca759af6ba31",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_hmc_dispersed_0.12/metrics.json",
+      "sha256": "af6d9264ce2ff107a9105c70bf878de50d85ebe3fceb7e4b1f281dc83b4f80d7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_hmc_dispersed_0.12/run.json",
+      "sha256": "8b37f82c8ac83ae1fd47fc0eff93d11dd8dab65871efed1b43c1ca419f351322",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_mala_dispersed_0.02/metrics.json",
+      "sha256": "c38f928bb1e13da8b53b71653356052d8d08034405a92b551818d02541ea064b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_mala_dispersed_0.02/run.json",
+      "sha256": "43f035953fa3489698a3514c147dc95021dfe2bcbad873351524e2fc6122b0e8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_nuts_dispersed_0.1/metrics.json",
+      "sha256": "06b83f9a926431d839dd08f081b435f66ba99e1f2d52cd26201985e366d1344a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_nuts_dispersed_0.1/run.json",
+      "sha256": "e95934db849b586bc0379f6e99ec7d0951fccee4f337811fa20b3aa837f18523",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_rwm_dispersed_0.6/metrics.json",
+      "sha256": "2ef89491fbad617de4503731d2ad9eef1412ca67e9b9a5f6d5e7dd29eed261a6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_rwm_dispersed_0.6/run.json",
+      "sha256": "69ecdbec50509bdb3bb362a8498717872a61feb23d30949d3981e63a977e8a83",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_slice_dispersed_1/metrics.json",
+      "sha256": "f8f679e93e48c121445b05882f6bbcd09f89c40a82b67dc4c10293e9bc5adcf1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_slice_dispersed_1/run.json",
+      "sha256": "d5614352f266af7a63c17f5237cea83f39446af8d59aafe39ed06dfbbe9344a4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_ula_dispersed_0.02/metrics.json",
+      "sha256": "8f6894525f4017b793c5dd018f0e113d196a47c677c2228859ca04aa9bc22345",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/regression_ula_dispersed_0.02/run.json",
+      "sha256": "95313bd2dc748a645413ef427d5cfff45fee2e17d88b578c2a4f7434cb4ef15d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_adaptive_hmc_dispersed_0.1/metrics.json",
+      "sha256": "97a80beba5556e16e5bbaf1414a979f01e9255eaaa1529aea2b393bac2bde1e5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_adaptive_hmc_dispersed_0.1/run.json",
+      "sha256": "1a789356b0b3668c43ea1c446593e891b3ff3fe94f6bacacf0c70264ac7ae2ae",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_adaptive_rwm_dispersed_0.6/metrics.json",
+      "sha256": "9f160cf75f09fe829eb2498a1432116f9e60a318b45340e1fa8fed10046a7e22",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_adaptive_rwm_dispersed_0.6/run.json",
+      "sha256": "91bf089ed4362d2c9bca7e3941819772e508829c6900725378847923a7a66f09",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_gibbs_dispersed_1/metrics.json",
+      "sha256": "af83432f7fb1e2e467e986e963849db3542f58fbc2abe5e18e5b609f2e92a602",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_gibbs_dispersed_1/run.json",
+      "sha256": "897ec5e6e0484fc7282c212d7ab8950ef8d4dd25f8d93c4ee127dda2bc756d0f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_gibbs_warm_1/metrics.json",
+      "sha256": "65e7a1d643c4850271a57dd692e2658a73e640a9d5686d3023ecf0fdda8c511d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_gibbs_warm_1/run.json",
+      "sha256": "d817b4e52dce4a768c7465c3a2d32d23ef823c4ed72ac6c2946c2232e4008acf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_hmc_dispersed_0.12/metrics.json",
+      "sha256": "6c566ad657b298469786d5be7d0980affa4b5d56549ab2fc6602eafe70050c0a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_hmc_dispersed_0.12/run.json",
+      "sha256": "ba9aa8e3349e23b82262281064264bd48df617d8844a69354a38eda39fa9ebe9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_hmc_warm_0.12/metrics.json",
+      "sha256": "a1bb644f9e2adf66a1c45b2409134b144695efae7be4e2b2df05c650e6a6374d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_hmc_warm_0.12/run.json",
+      "sha256": "0b39b9390f957d55d5f1d7454a30faaaf37d56fc4a64ed9764a0c2e822da7721",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_mala_dispersed_0.02/metrics.json",
+      "sha256": "77878b6c60c6d281180f938ad44ae8c1234da31e2d62c5494a18fccc8db97882",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_mala_dispersed_0.02/run.json",
+      "sha256": "3aed81413521b93717fc705c66937742eaa819bb3ad54fbdb407f9bc4d9e0571",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_nuts_dispersed_0.1/metrics.json",
+      "sha256": "429e4c0c9da36865f80a73f83a8583f1e57c42e3018e0d6eda400c43fbd3e17a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_nuts_dispersed_0.1/run.json",
+      "sha256": "f04aa2e44ec733d2bf5f3f2d95fd73f4b7148911df15bbd90a92a9e50b9333f3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_nuts_warm_0.1/metrics.json",
+      "sha256": "6b1d1278247ac456c78fa02f61c6aeb6f51ff74692a35ce0ff8bb090ab1f206b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_nuts_warm_0.1/run.json",
+      "sha256": "ad11e61ad15243f2af64f3028d1e7fad4d240a2071517d3ba20977cd51d8f05d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_parallel_tempering_dispersed_0.6/metrics.json",
+      "sha256": "55ecad18f92db561e943104a27b8788b2653961b13711ff9fe6cffbd28982681",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_parallel_tempering_dispersed_0.6/run.json",
+      "sha256": "ffc92e64f3213a3f5d285441ea09aefbf6bbd4185818bd0e4bb10f1ae722807a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_dispersed_0.6/metrics.json",
+      "sha256": "3fc4a5bf0e3787e4294f5a8e785c7ea25b1ee016a53dbfa16e2d005b542e6b47",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_dispersed_0.6/run.json",
+      "sha256": "f4b3cd89810c74e8b3ff4026faa53ac26df520e27dc9a45cae6cfc82e3c10037",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_dispersed_2.5/metrics.json",
+      "sha256": "cfeb3c5ebda914116827569c9b79afa925e1e2b732d6e6a4c46e06683281c014",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_dispersed_2.5/run.json",
+      "sha256": "2a0cbddea8fbdf7a17bc23d1fc321651758881f6a44b4d76aa621288e070e026",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_warm_0.6/metrics.json",
+      "sha256": "e79b5b77660cdfaa5de388ba61f367885069c8b0912b4081ab29072aaadc693b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_rwm_warm_0.6/run.json",
+      "sha256": "416a39e298be4750b940e4181a075c162fb9ce055c7865de41aa20197fd51c3e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_slice_dispersed_1/metrics.json",
+      "sha256": "ae19ce416cb0c53f5771eddbd5f314029e411a7635fbbceccf8df9ffcffd016c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_slice_dispersed_1/run.json",
+      "sha256": "497c1032f590a9d7a00eeaf8e1188475bdcb9ec901617a8901700db12f1acdb2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_ula_dispersed_0.02/metrics.json",
+      "sha256": "ccc285a594deb421a9afa9a97115ec031dd4f53c188ad2142f06eb9e33741fcd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/sampling/ring_ula_dispersed_0.02/run.json",
+      "sha256": "d9807e55fddffd83ed8fe3c49d9de513b57a81198a17f98f51c79b9a33f2d064",
+      "kind": ".json"
+    },
+    {
+      "path": "scripts/check_distribution.py",
+      "sha256": "8a8d09c26095a6b7e324ef0b37961729c47f20cc8166e70e823fd1d3328c83e4",
+      "kind": ".py",
+      "functions": [
+        "main",
+        "run"
+      ]
+    },
+    {
+      "path": "scripts/check_explorer_browser.py",
+      "sha256": "b2dcac6a8c63997859433fa1263f24768995b71dd37511c235641be88f23bacd",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_explorer.py",
+      "sha256": "473527b5cd5dfd0b034beb0e46fc6402f05cd3af272bb5f5cef5f8ba8fa6bf5c",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/execute_notebooks.py",
+      "sha256": "d3871d3e96f1923ca1aaf875839de96c2675fd78ed4436dbbf1ffbdaa85d5a8e",
+      "kind": ".py",
+      "functions": [
+        "CurrentInterpreterClient",
+        "main",
+        "create_kernel_manager"
+      ]
+    },
+    {
+      "path": "scripts/predict_posterior.py",
+      "sha256": "9563f886bdc85e74f93eec875aecccc4674f6dde06d8ec31e4abff448674644a",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/review_components.py",
+      "sha256": "34120bf8bf68df19a3b80201d628f6c352f74996dd677c29414f47f9e8f5db9c",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/score_energy.py",
+      "sha256": "2f8dd68af0c57164abbf953ae0e7af726f2cdc2a76cd56b4259bc0a10667b15f",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "sha256": "861afc8dace4c178930b8a02b3e54eae4f976b5c61d026f8bd34087fb314854b",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/__init__.py",
+      "sha256": "7fb0858dae772f18f3f67a67b880f87e183d468109e79c608ac76f4981291e1a",
+      "kind": ".py",
+      "functions": []
+    },
+    {
+      "path": "src/sampling_lab/artifacts.py",
+      "sha256": "d8f0def92fd1d5769a4fcc216accac686188c7c41e46ae6198955dd438bbc0da",
+      "kind": ".py",
+      "functions": [
+        "sha256",
+        "write_json",
+        "source_identity",
+        "environment",
+        "convert"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/cli.py",
+      "sha256": "d7f42cbeaa5105c7cdbf66b8ea0795706a1d8b0b315551088095370c19a0edbb",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/default_configs/ebm.json",
+      "sha256": "9a89ce04b34d69db2513e486ead7d5792b3e318f9e3406f523b95bda7974c663",
+      "kind": ".json"
+    },
+    {
+      "path": "src/sampling_lab/default_configs/sampling.json",
+      "sha256": "fc194ecef7624cd149e38f246ce57f6b3f367789595cf1b96462a171fde51922",
+      "kind": ".json"
+    },
+    {
+      "path": "src/sampling_lab/diagnostics.py",
+      "sha256": "28afaf39b55256f330f94decf712104df5a7ce6628a834258bec282c14b0afa7",
+      "kind": ".py",
+      "functions": [
+        "summarize",
+        "split_rank_rhat_oracle",
+        "finite",
+        "calculate"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/ebm.py",
+      "sha256": "6782d44205da3c99433ea4aec5777d4c66ea6bc3ab33252e981109427854478a",
+      "kind": ".py",
+      "functions": [
+        "Energy",
+        "langevin",
+        "grid_geometry",
+        "log_partition",
+        "dataset",
+        "export",
+        "load",
+        "train",
+        "__init__",
+        "forward"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/experiments.py",
+      "sha256": "1cc4e85dcd542c4d6405048695077c1e6b62a3dd710ce9508bb57bfb07f83288",
+      "kind": ".py",
+      "functions": [
+        "evaluate"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/posterior.py",
+      "sha256": "05b718c1ba44da302d5b5baac48fdbd4350e3ef90dcbd227c6b0d469441ac8f1",
+      "kind": ".py",
+      "functions": [
+        "predict"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/reference.py",
+      "sha256": "32712115f037d0b5a688c03300abcddfccd28a80ccd2b17f7f8023ea9e593165",
+      "kind": ".py",
+      "functions": [
+        "run_nuts",
+        "potential"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/reporting.py",
+      "sha256": "5a25cc5c57d2947dad64c2f8b537e3c859f5ddfc543cdc0cf395d07af733a124",
+      "kind": ".py",
+      "functions": [
+        "records",
+        "figure",
+        "main",
+        "finite"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/samplers.py",
+      "sha256": "584e701370c644875d03b5c8ae85a9569246bb1c648f45e013d8c0cfb8a46722",
+      "kind": ".py",
+      "functions": [
+        "leapfrog",
+        "mala_log_ratio",
+        "gaussian_gibbs",
+        "coordinate_slice",
+        "run_chain"
+      ]
+    },
+    {
+      "path": "src/sampling_lab/targets.py",
+      "sha256": "3d24644fd0e2aeab3bbe8ec1f854d65e535dae734b4cab2ccfb072d211da93d6",
+      "kind": ".py",
+      "functions": [
+        "Target",
+        "load_target",
+        "__post_init__",
+        "log_prob",
+        "gradient",
+        "torch_log_prob",
+        "observable",
+        "reference",
+        "start",
+        "as_tensor",
+        "objective",
+        "gradient"
+      ]
+    },
+    {
+      "path": "tests/test_kernels.py",
+      "sha256": "2b22517da301b5236f869d32e52a6fd3270bd141675acc0de26fc0999812864c",
+      "kind": ".py",
+      "functions": [
+        "test_numpy_targets_against_autograd_and_finite_differences",
+        "test_leapfrog_is_reversible_and_second_order_energy_error",
+        "test_mala_asymmetric_proposal_correction_matches_log_detailed_balance",
+        "test_corrected_kernels_recover_analytic_gaussian_moments",
+        "test_ula_has_the_predicted_discretization_variance",
+        "test_rank_and_folded_rhat_matches_independent_definition",
+        "test_logistic_minibatch_gradient_is_unbiased_in_expectation",
+        "test_conjugate_regression_posterior_satisfies_normal_equations",
+        "test_ebm_gaussian_base_partition_oracle_and_safe_export",
+        "test_negative_chains_are_detached_and_do_not_modify_parameter_gradients",
+        "test_portable_posterior_predicts_actual_heldout_features",
+        "test_tempering_improves_mode_exploration_in_recorded_reference",
+        "logq"
+      ]
+    }
+  ],
+  "local_links": 79,
+  "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; generated evidence is independently recomputed by validate_release.py."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "environment": {
+    "python": "3.10.20",
+    "packages": {
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "torch": "2.7.1+cu128",
+      "arviz": "0.21.0",
+      "pyro-ppl": "1.9.1",
+      "scikit-learn": "1.4.0"
+    },
+    "device": "cpu",
+    "precision": "float64 sampling and Pyro potential; float32 neural energies with float64 quadrature weights",
+    "threads": 1
+  },
+  "config": {
+    "target": "logistic",
+    "method": "adaptive_hmc",
+    "profile": "dispersed",
+    "step_size": 0.1,
+    "seed": 42,
+    "chains": 4,
+    "draws": 2000,
+    "warmup": 1000,
+    "leapfrog_steps": 12,
+    "preconditioned": true
+  },
+  "source_sha256": {
+    "artifacts.py": "d8f0def92fd1d5769a4fcc216accac686188c7c41e46ae6198955dd438bbc0da",
+    "diagnostics.py": "28afaf39b55256f330f94decf712104df5a7ce6628a834258bec282c14b0afa7",
+    "ebm.py": "6782d44205da3c99433ea4aec5777d4c66ea6bc3ab33252e981109427854478a",
+    "experiments.py": "1cc4e85dcd542c4d6405048695077c1e6b62a3dd710ce9508bb57bfb07f83288",
+    "posterior.py": "05b718c1ba44da302d5b5baac48fdbd4350e3ef90dcbd227c6b0d469441ac8f1",
+    "reference.py": "32712115f037d0b5a688c03300abcddfccd28a80ccd2b17f7f8023ea9e593165",
+    "samplers.py": "584e701370c644875d03b5c8ae85a9569246bb1c648f45e013d8c0cfb8a46722",
+    "targets.py": "3d24644fd0e2aeab3bbe8ec1f854d65e535dae734b4cab2ccfb072d211da93d6"
+  },
+  "numeric_source": "assets/source_data/logistic_adaptive_hmc_dispersed_0.1.npz",
+  "numeric_sha256": "afe22b791895449971e5e3fca5822548dc6dfa7a9413145c056b45db8839af02"
+}

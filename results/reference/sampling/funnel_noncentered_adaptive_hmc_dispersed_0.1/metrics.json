@@ -1,0 +1,104 @@
+{
+  "target": "funnel_noncentered",
+  "method": "adaptive_hmc",
+  "config": {
+    "target": "funnel_noncentered",
+    "method": "adaptive_hmc",
+    "profile": "dispersed",
+    "step_size": 0.1,
+    "seed": 42,
+    "chains": 4,
+    "draws": 2000,
+    "warmup": 1000,
+    "leapfrog_steps": 12,
+    "preconditioned": false
+  },
+  "diagnostics": {
+    "rank_rhat": [
+      1.0011308294549097,
+      1.0008192757151877
+    ],
+    "bulk_ess": [
+      7907.957626166012,
+      5786.709265154606
+    ],
+    "tail_ess": [
+      4784.226734830825,
+      5454.6006045298345
+    ],
+    "mean_mcse": [
+      0.033918446381434944,
+      0.13222017338519926
+    ],
+    "mean": [
+      -0.0025924508486699104,
+      0.010108521465173154
+    ],
+    "standard_deviation": [
+      3.0218699320909757,
+      9.637011572387607
+    ],
+    "chain_means": [
+      [
+        0.02585721937942178,
+        -0.09031240657519034
+      ],
+      [
+        -0.05188237646347943,
+        0.06507342576898131
+      ],
+      [
+        0.028733071947155568,
+        0.07137048955737503
+      ],
+      [
+        -0.013077718257777442,
+        -0.005697422890473378
+      ]
+    ],
+    "draws_per_chain": 2000,
+    "chains": 4,
+    "total_sampling_and_warmup_seconds": 2.094080119393766,
+    "gradient_evaluations_includes_warmup": 120154,
+    "min_bulk_ess_per_second": 2763.3657430594644,
+    "min_bulk_ess_per_gradient": 0.04816077088698342,
+    "divergences": 0,
+    "nonfinite_proposals": 0,
+    "convergence_flag": true,
+    "energy_bfmi": [
+      1.1875314109448176,
+      1.2014779077901427,
+      1.1442883540456354,
+      1.0998171101647556
+    ],
+    "bfmi_scope": "Meaningful for HMC with refreshed momentum; for other kernels stored potential is a trace diagnostic only",
+    "reference_mean": [
+      -0.014040231933964415,
+      -0.004047527166231186
+    ],
+    "standardized_mean_error": [
+      0.003821529710759966,
+      0.0016114383563557606
+    ],
+    "covariance_relative_error": 0.20212279770669095
+  },
+  "acceptance_per_chain": [
+    0.8365,
+    0.8185,
+    0.848,
+    0.8655
+  ],
+  "final_step_size": [
+    1.267908059446038,
+    1.1991549563163897,
+    1.2339718392251844,
+    1.3197514701416364
+  ],
+  "swap_acceptance": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "scope": "Fixed presets declared before fitting. Four independent chains; warmup excluded, repeated states retained. Approximate ULA/SGLD/SGHMC bias is not removed by convergence diagnostics. No thinning. Comparisons have unequal gradient/replica work; both work and wall time reported."
+}

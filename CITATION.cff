@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use the laboratory in your work."
+type: software
+title: "Sampling & Energy Lab"
+version: 1.0.0
+date-released: 2026-10-07
+license: MIT
+authors:
+  - given-names: Navid
+    family-names: Bagheri-Shouraki
+abstract: >-
+  An evaluated educational laboratory connecting explicit Monte Carlo kernels,
+  maintained adaptive sampling, Bayesian prediction, neural energy learning,
+  modern multichain diagnostics and offline interactive explanations.
+keywords:
+  - Markov chain Monte Carlo
+  - Bayesian inference
+  - Hamiltonian Monte Carlo
+  - energy-based models
+  - contrastive divergence

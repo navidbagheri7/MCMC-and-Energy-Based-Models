@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "base_scale": 3,
+  "residual_bound": 8,
+  "weights_sha256": "b6875eea69caf02a9803ea092ab5d74ad0e72c349d8011fa3b1117f183ddd786"
+}

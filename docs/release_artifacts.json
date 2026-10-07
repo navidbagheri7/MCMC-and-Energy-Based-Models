@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "release": "1.0.0",
+  "artifacts": {
+    "sampling_energy_lab-1.0.0-py3-none-any.whl": "e62d4a81b5bfee80c8c6cdef91a5edebebed6ff42ba0934568b0cb7b63038d9c",
+    "sampling_energy_lab-1.0.0.tar.gz": "4ccb86a8df4ba14d46af3e3ffafc54470ce2264c0751c2c8b29780bc0cb19471"
+  },
+  "checks": [
+    {
+      "check": "install",
+      "status": "passed"
+    },
+    {
+      "check": "import_identity",
+      "status": "passed"
+    },
+    {
+      "check": "wheel_tests",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_sampling",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_energy",
+      "status": "passed"
+    },
+    {
+      "check": "initialize_checkout",
+      "status": "passed"
+    },
+    {
+      "check": "archive_notebooks",
+      "status": "passed"
+    },
+    {
+      "check": "archive_validation",
+      "status": "passed"
+    },
+    {
+      "check": "archive_public_content",
+      "status": "passed"
+    }
+  ],
+  "installed_wheel_tests": 25,
+  "source_archive_notebooks": 10,
+  "source_archive_executed_cells": 30,
+  "scope": "Wheel imports, all 25 tests and two bundled CPU command families run outside the checkout. Three small public numeric fixtures enable the two reference-dependent tests. The source archive includes all 36 safe EBM models, executes all ten walkthroughs and validates all 120 protocols, numerical, English, link and browser evidence without the original notebook or private checkpoints. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed."
+}

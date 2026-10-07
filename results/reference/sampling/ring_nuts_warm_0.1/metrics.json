@@ -1,0 +1,99 @@
+{
+  "target": "ring",
+  "method": "nuts",
+  "config": {
+    "target": "ring",
+    "method": "nuts",
+    "profile": "warm",
+    "step_size": 0.1,
+    "seed": 42,
+    "chains": 4,
+    "draws": 2000,
+    "warmup": 1000,
+    "leapfrog_steps": 12,
+    "preconditioned": false
+  },
+  "diagnostics": {
+    "rank_rhat": [
+      1.245919015208217,
+      1.2677036769685501
+    ],
+    "bulk_ess": [
+      12.485663933555372,
+      11.48290104057599
+    ],
+    "tail_ess": [
+      40.7153596365177,
+      11.898216046054456
+    ],
+    "mean_mcse": [
+      0.5877482005961154,
+      0.6237947279297139
+    ],
+    "mean": [
+      0.07874771576611471,
+      1.2223144765880334
+    ],
+    "standard_deviation": [
+      1.9991461136282986,
+      1.95027566009939
+    ],
+    "chain_means": [
+      [
+        0.07651439408055594,
+        1.1306444535403426
+      ],
+      [
+        0.9509602933801685,
+        1.7503779515980924
+      ],
+      [
+        -0.039527251941804085,
+        0.7089499384234769
+      ],
+      [
+        -0.67295657245447,
+        1.2992855627902493
+      ]
+    ],
+    "draws_per_chain": 2000,
+    "chains": 4,
+    "total_sampling_and_warmup_seconds": 35.957686017267406,
+    "gradient_evaluations_includes_warmup": 70321,
+    "min_bulk_ess_per_second": 0.3193448275581953,
+    "min_bulk_ess_per_gradient": 0.00016329263009024319,
+    "divergences": 0,
+    "nonfinite_proposals": 0,
+    "convergence_flag": false,
+    "energy_bfmi": null,
+    "bfmi_scope": "Pyro public interface does not expose the paired momentum energy; no fabricated energy diagnostic",
+    "reference_mean": [
+      -0.015534398446610491,
+      0.0019234056732154762
+    ],
+    "standardized_mean_error": [
+      0.043794458112408514,
+      0.568119560109133
+    ],
+    "covariance_relative_error": 0.1730315187538575
+  },
+  "acceptance_per_chain": [
+    0.9895,
+    0.989,
+    0.988,
+    0.996
+  ],
+  "final_step_size": [
+    0.11877545008368716,
+    0.13495123858321412,
+    0.1847479048960774,
+    0.2491244335715123
+  ],
+  "swap_acceptance": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "scope": "Fixed presets declared before fitting. Four independent chains; warmup excluded, repeated states retained. Approximate ULA/SGLD/SGHMC bias is not removed by convergence diagnostics. No thinning. Comparisons have unequal gradient/replica work; both work and wall time reported."
+}

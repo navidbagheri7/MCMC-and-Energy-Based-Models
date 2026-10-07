@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "notebooks": [
+    {
+      "notebook": "notebooks/01_targets_and_rejection.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "d3e2832b375f13de5114a0317d9ecb1980e2907b639f8d401ec1f912b0461c41",
+      "visual_outputs": 2
+    },
+    {
+      "notebook": "notebooks/02_metropolis_gibbs_slice.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "8d7f9467a0740056722edd7b1c60163b945959108ca1c19bd0e4c6b997179486",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/03_ula_bias_and_mala.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "9075af72b51837a70aebbd6ece396fa9ee754dc4fa39923a32210ab0085920b4",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/04_hamiltonian_mass_and_adaptation.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "c040d0b810c52f1fa4e87e725b095a962b1266838037e984ed37afc9b14526f8",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/05_nuts_and_rank_diagnostics.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "7f5f252be2a8ac4944771818fee9668c3b85e126948aec0d8b863744a31ce78f",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/06_tempering_and_warmstarts.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "05d05eafc8ea4a808b7f3ab22195dda1792bf44f3016d67f758ed051338f4c99",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/07_funnel_and_reparameterization.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "17921c61677e9e0dd21869520a1ccba062c7f184b1b63647ec437e8c29462500",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/08_bayesian_logistic_and_sg_gradients.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "12422751c381f32d7c2947a7f480d55b85c685cfbce9c97aafb0721c24c50edd",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/09_conjugate_regression_prediction.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "788e5b90bea4dc9778fb0be6bfa73007adb2e3c17a9e42149290bada326e2506",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/10_energy_learning_and_normalization.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "b426b4a9b3f8f9f802a69b72423bf277b451e8d6e0467e5c46a136f6c0f2e62c",
+      "visual_outputs": 1
+    }
+  ]
+}

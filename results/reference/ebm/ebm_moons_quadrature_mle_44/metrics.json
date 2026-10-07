@@ -1,0 +1,26 @@
+{
+  "config": {
+    "task": "moons",
+    "method": "quadrature_mle",
+    "seed": 44,
+    "steps": 2000,
+    "device": "cpu"
+  },
+  "selected_step": 2000,
+  "validation_nll": 2.599703311920166,
+  "test_nll": 2.5522241592407227,
+  "log_partition": 4.46657599245782,
+  "partition_refinements": [
+    4.466572818735484,
+    4.466574974636325,
+    4.46657599245782
+  ],
+  "partition_max_change": 3.173722335603202e-06,
+  "absolute_partition_tail_bound_outside_square18": 0.00256730554467567,
+  "integrability": "E(x)=||x||\u00b2/18 + bounded residual in [-8,8]; outside-square18 partition contribution <= Gaussian outside-radius18 envelope; quadrature truncation bound is conservative. Finite-grid integration error is estimated by refinement, not rigorously bounded.",
+  "fitting_seconds": 8.835689132101834,
+  "negative_gradient_evaluations": 0,
+  "model_sha256": "099d7ad2529dddbaf177c9d1ef288cd57c40b99a1c77f2e6110c3535a1ba9c7b",
+  "selection": "First minimum held-out normalized NLL at 100-update intervals, including initial and final; fixed 161-grid/\u00b114. Test evaluated once at independently refined 401-grid/\u00b118.",
+  "scope": "Owned 2D model study, 8000/1000/1000 fixed independent procedural draws. Equal optimizer updates, unequal negative-phase work. CD/PCD/replay and ULA finite-step bias are retained; generator draws are approximate and do not define NLL. No high-dimensional or image quality claim."
+}

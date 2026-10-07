@@ -1,0 +1,256 @@
+{
+  "experiments": [
+    {
+      "task": "mixture",
+      "method": "cd1",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "cd1",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "cd1",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "cd10",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "cd10",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "cd10",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd10",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd10",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd10",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd50",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd50",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "pcd50",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "replay20",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "replay20",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "replay20",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "quadrature_mle",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "quadrature_mle",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "mixture",
+      "method": "quadrature_mle",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd1",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd1",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd1",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd10",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd10",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "cd10",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd10",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd10",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd10",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd50",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd50",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "pcd50",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "replay20",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "replay20",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "replay20",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "quadrature_mle",
+      "seed": 42,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "quadrature_mle",
+      "seed": 43,
+      "steps": 2000,
+      "device": "cpu"
+    },
+    {
+      "task": "moons",
+      "method": "quadrature_mle",
+      "seed": 44,
+      "steps": 2000,
+      "device": "cpu"
+    }
+  ]
+}
