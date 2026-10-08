@@ -23,7 +23,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "de4124848d20e1995c61f72488307209637f778784b08ccb2a87f04383127408",
+      "sha256": "8c9fd3a30cec812bbbafa79d3c268b34701a7a1b41c2e8d205b2f94c2efef0e6",
       "kind": ".md"
     },
     {
@@ -44,6 +44,21 @@
     {
       "path": "docs/data_and_protocols.md",
       "sha256": "167c935e43abe34deb972f3687dc887b5ce09934341558c13784762f9bdab671",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/demo_controls_validation.json",
+      "sha256": "6cbd3dbbe6ecf734b60fc3d623e543afdde840925c31d8c1c6e0be27597d1379",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/demo_details_validation.json",
+      "sha256": "f522da3b2b707f55205a41209ff40429fda375ea1dfad41c292506ae17e82650",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/demo_review.md",
+      "sha256": "658aca9c99c7b44cf98f3560ebd4f133faec26c3ff99459e7c2a88fc87d8c2f2",
       "kind": ".md"
     },
     {
@@ -83,7 +98,7 @@
     },
     {
       "path": "docs/reproduction.md",
-      "sha256": "ec367c9c3a4ba93ca6566f48a5659dc1cb96533fb1a13e14cd7fcd67c65309a5",
+      "sha256": "40019d47e6665d773ae0613f5860f97cbe9255afcc849c32445cdfef10e57db3",
       "kind": ".md"
     },
     {
@@ -1737,6 +1752,28 @@
       "kind": ".json"
     },
     {
+      "path": "scripts/check_demo_controls.py",
+      "sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+      "kind": ".py",
+      "functions": [
+        "digest",
+        "QuietHandler",
+        "main",
+        "log_message",
+        "inspect",
+        "controls",
+        "presets"
+      ]
+    },
+    {
+      "path": "scripts/check_demo_details.py",
+      "sha256": "730bcc28713a14a495cb0b92a175577c68275f58469977a9e3ea3277561fbadb",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
       "path": "scripts/check_distribution.py",
       "sha256": "8a8d09c26095a6b7e324ef0b37961729c47f20cc8166e70e823fd1d3328c83e4",
       "kind": ".py",
@@ -1759,6 +1796,19 @@
       "kind": ".py",
       "functions": [
         "main"
+      ]
+    },
+    {
+      "path": "scripts/demo_oracle.py",
+      "sha256": "4194503786c492fa8d485a02fbbba4ab5a115938d2193421b82bf340bd9efd76",
+      "kind": ".py",
+      "functions": [
+        "close",
+        "cards",
+        "image_sources",
+        "check",
+        "maximum",
+        "minimum"
       ]
     },
     {
@@ -1955,6 +2005,6 @@
       ]
     }
   ],
-  "local_links": 79,
+  "local_links": 84,
   "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; generated evidence is independently recomputed by validate_release.py."
 }

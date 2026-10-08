@@ -19,6 +19,9 @@ calculations, exact replay of recorded chain states, every measured preset and
 all fitting seeds. [Hosting instructions](docs/publication.md) explain how to
 share the same demo through GitHub Pages after you publish.
 
+The [user interaction audit](docs/demo_review.md) documents exhaustive enabled
+dropdown checks, representative joint slider settings and source-bound asset checks.
+
 ## Measured examples
 
 - **84 sampler protocols, 336 independent chains:** 1,000 warmup and 2,000 retained

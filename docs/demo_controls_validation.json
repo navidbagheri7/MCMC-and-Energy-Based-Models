@@ -1,0 +1,7993 @@
+{
+  "status": "passed",
+  "page": "docs/explorer.html",
+  "html_sha256": "882b026f230ed1ff02d0fc93ac403e38815295332ba3c6dcf7df2ad05415b40e",
+  "checker_sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+  "selector_tuples": [
+    {
+      "concept": "Sampler mechanics",
+      "fields": []
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.08"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Chain diagnostics",
+      "fields": [
+        {
+          "field": "task",
+          "value": "perturbed"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "parallel_tempering \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "parallel_tempering \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "parallel_tempering \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "parallel_tempering \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "parallel_tempering \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 2.5"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 2.5"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 2.5"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 2.5"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 2.5"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Multimodality and tempering",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "banana"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Geometry and reparameterization",
+      "fields": [
+        {
+          "field": "task",
+          "value": "funnel_noncentered"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "gaussian"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 warm \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 warm \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 warm \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Warm starts",
+      "fields": [
+        {
+          "field": "task",
+          "value": "ring"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 warm \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "gibbs \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian regression",
+      "fields": [
+        {
+          "field": "task",
+          "value": "regression"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_hmc \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "adaptive_rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "hmc \u00b7 dispersed \u00b7 preset 0.12"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "mala \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "nuts \u00b7 dispersed \u00b7 preset 0.1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "rwm \u00b7 dispersed \u00b7 preset 0.6"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.0005"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.0005"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.0005"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.0005"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.0005"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.002"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.002"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.002"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.002"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sghmc \u00b7 dispersed \u00b7 preset 0.002"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.005"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "sgld \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "slice \u00b7 dispersed \u00b7 preset 1"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Bayesian classification",
+      "fields": [
+        {
+          "field": "task",
+          "value": "logistic"
+        },
+        {
+          "field": "preset",
+          "value": "ula \u00b7 dispersed \u00b7 preset 0.02"
+        },
+        {
+          "field": "chain",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "mixture"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd10 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "cd1 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd10 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "pcd50 \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "quadrature_mle \u00b7 fit seed 44"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 42"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 43"
+        }
+      ]
+    },
+    {
+      "concept": "Energy-based learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "moons"
+        },
+        {
+          "field": "preset",
+          "value": "replay20 \u00b7 fit seed 44"
+        }
+      ]
+    }
+  ],
+  "slider_position_checks": 1341,
+  "playback_checks": 420,
+  "verified_image_files": [
+    "assets/figures/banana_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/banana_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/banana_hmc_dispersed_0.12.png",
+    "assets/figures/banana_mala_dispersed_0.02.png",
+    "assets/figures/banana_nuts_dispersed_0.1.png",
+    "assets/figures/banana_rwm_dispersed_0.6.png",
+    "assets/figures/banana_slice_dispersed_1.png",
+    "assets/figures/banana_ula_dispersed_0.02.png",
+    "assets/figures/ebm_mixture_cd10_42.png",
+    "assets/figures/ebm_mixture_cd10_43.png",
+    "assets/figures/ebm_mixture_cd10_44.png",
+    "assets/figures/ebm_mixture_cd1_42.png",
+    "assets/figures/ebm_mixture_cd1_43.png",
+    "assets/figures/ebm_mixture_cd1_44.png",
+    "assets/figures/ebm_mixture_pcd10_42.png",
+    "assets/figures/ebm_mixture_pcd10_43.png",
+    "assets/figures/ebm_mixture_pcd10_44.png",
+    "assets/figures/ebm_mixture_pcd50_42.png",
+    "assets/figures/ebm_mixture_pcd50_43.png",
+    "assets/figures/ebm_mixture_pcd50_44.png",
+    "assets/figures/ebm_mixture_quadrature_mle_42.png",
+    "assets/figures/ebm_mixture_quadrature_mle_43.png",
+    "assets/figures/ebm_mixture_quadrature_mle_44.png",
+    "assets/figures/ebm_mixture_replay20_42.png",
+    "assets/figures/ebm_mixture_replay20_43.png",
+    "assets/figures/ebm_mixture_replay20_44.png",
+    "assets/figures/ebm_moons_cd10_42.png",
+    "assets/figures/ebm_moons_cd10_43.png",
+    "assets/figures/ebm_moons_cd10_44.png",
+    "assets/figures/ebm_moons_cd1_42.png",
+    "assets/figures/ebm_moons_cd1_43.png",
+    "assets/figures/ebm_moons_cd1_44.png",
+    "assets/figures/ebm_moons_pcd10_42.png",
+    "assets/figures/ebm_moons_pcd10_43.png",
+    "assets/figures/ebm_moons_pcd10_44.png",
+    "assets/figures/ebm_moons_pcd50_42.png",
+    "assets/figures/ebm_moons_pcd50_43.png",
+    "assets/figures/ebm_moons_pcd50_44.png",
+    "assets/figures/ebm_moons_quadrature_mle_42.png",
+    "assets/figures/ebm_moons_quadrature_mle_43.png",
+    "assets/figures/ebm_moons_quadrature_mle_44.png",
+    "assets/figures/ebm_moons_replay20_42.png",
+    "assets/figures/ebm_moons_replay20_43.png",
+    "assets/figures/ebm_moons_replay20_44.png",
+    "assets/figures/funnel_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/funnel_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/funnel_hmc_dispersed_0.12.png",
+    "assets/figures/funnel_mala_dispersed_0.02.png",
+    "assets/figures/funnel_noncentered_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/funnel_noncentered_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/funnel_noncentered_hmc_dispersed_0.12.png",
+    "assets/figures/funnel_noncentered_mala_dispersed_0.02.png",
+    "assets/figures/funnel_noncentered_nuts_dispersed_0.1.png",
+    "assets/figures/funnel_noncentered_rwm_dispersed_0.6.png",
+    "assets/figures/funnel_noncentered_slice_dispersed_1.png",
+    "assets/figures/funnel_noncentered_ula_dispersed_0.02.png",
+    "assets/figures/funnel_nuts_dispersed_0.1.png",
+    "assets/figures/funnel_rwm_dispersed_0.6.png",
+    "assets/figures/funnel_slice_dispersed_1.png",
+    "assets/figures/funnel_ula_dispersed_0.02.png",
+    "assets/figures/gaussian_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/gaussian_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/gaussian_gibbs_dispersed_1.png",
+    "assets/figures/gaussian_gibbs_warm_1.png",
+    "assets/figures/gaussian_hmc_dispersed_0.12.png",
+    "assets/figures/gaussian_hmc_warm_0.12.png",
+    "assets/figures/gaussian_mala_dispersed_0.02.png",
+    "assets/figures/gaussian_mala_dispersed_0.08.png",
+    "assets/figures/gaussian_nuts_dispersed_0.1.png",
+    "assets/figures/gaussian_nuts_warm_0.1.png",
+    "assets/figures/gaussian_rwm_dispersed_0.6.png",
+    "assets/figures/gaussian_rwm_warm_0.6.png",
+    "assets/figures/gaussian_slice_dispersed_1.png",
+    "assets/figures/gaussian_ula_dispersed_0.005.png",
+    "assets/figures/gaussian_ula_dispersed_0.02.png",
+    "assets/figures/gaussian_ula_dispersed_0.08.png",
+    "assets/figures/logistic_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/logistic_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/logistic_hmc_dispersed_0.12.png",
+    "assets/figures/logistic_mala_dispersed_0.02.png",
+    "assets/figures/logistic_nuts_dispersed_0.1.png",
+    "assets/figures/logistic_rwm_dispersed_0.6.png",
+    "assets/figures/logistic_sghmc_dispersed_0.0005.png",
+    "assets/figures/logistic_sghmc_dispersed_0.002.png",
+    "assets/figures/logistic_sgld_dispersed_0.005.png",
+    "assets/figures/logistic_sgld_dispersed_0.02.png",
+    "assets/figures/logistic_slice_dispersed_1.png",
+    "assets/figures/logistic_ula_dispersed_0.02.png",
+    "assets/figures/perturbed_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/perturbed_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/perturbed_hmc_dispersed_0.12.png",
+    "assets/figures/perturbed_mala_dispersed_0.02.png",
+    "assets/figures/perturbed_nuts_dispersed_0.1.png",
+    "assets/figures/perturbed_rwm_dispersed_0.6.png",
+    "assets/figures/perturbed_slice_dispersed_1.png",
+    "assets/figures/perturbed_ula_dispersed_0.02.png",
+    "assets/figures/regression_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/regression_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/regression_gibbs_dispersed_1.png",
+    "assets/figures/regression_hmc_dispersed_0.12.png",
+    "assets/figures/regression_mala_dispersed_0.02.png",
+    "assets/figures/regression_nuts_dispersed_0.1.png",
+    "assets/figures/regression_rwm_dispersed_0.6.png",
+    "assets/figures/regression_slice_dispersed_1.png",
+    "assets/figures/regression_ula_dispersed_0.02.png",
+    "assets/figures/ring_adaptive_hmc_dispersed_0.1.png",
+    "assets/figures/ring_adaptive_rwm_dispersed_0.6.png",
+    "assets/figures/ring_gibbs_dispersed_1.png",
+    "assets/figures/ring_gibbs_warm_1.png",
+    "assets/figures/ring_hmc_dispersed_0.12.png",
+    "assets/figures/ring_hmc_warm_0.12.png",
+    "assets/figures/ring_mala_dispersed_0.02.png",
+    "assets/figures/ring_nuts_dispersed_0.1.png",
+    "assets/figures/ring_nuts_warm_0.1.png",
+    "assets/figures/ring_parallel_tempering_dispersed_0.6.png",
+    "assets/figures/ring_rwm_dispersed_0.6.png",
+    "assets/figures/ring_rwm_dispersed_2.5.png",
+    "assets/figures/ring_rwm_warm_0.6.png",
+    "assets/figures/ring_slice_dispersed_1.png",
+    "assets/figures/ring_ula_dispersed_0.02.png"
+  ],
+  "verified_local_links": [
+    "README.md",
+    "assets/source_data/banana_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/banana_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/banana_hmc_dispersed_0.12.npz",
+    "assets/source_data/banana_mala_dispersed_0.02.npz",
+    "assets/source_data/banana_nuts_dispersed_0.1.npz",
+    "assets/source_data/banana_rwm_dispersed_0.6.npz",
+    "assets/source_data/banana_slice_dispersed_1.npz",
+    "assets/source_data/banana_ula_dispersed_0.02.npz",
+    "assets/source_data/ebm_mixture_cd10_42.npz",
+    "assets/source_data/ebm_mixture_cd10_43.npz",
+    "assets/source_data/ebm_mixture_cd10_44.npz",
+    "assets/source_data/ebm_mixture_cd1_42.npz",
+    "assets/source_data/ebm_mixture_cd1_43.npz",
+    "assets/source_data/ebm_mixture_cd1_44.npz",
+    "assets/source_data/ebm_mixture_pcd10_42.npz",
+    "assets/source_data/ebm_mixture_pcd10_43.npz",
+    "assets/source_data/ebm_mixture_pcd10_44.npz",
+    "assets/source_data/ebm_mixture_pcd50_42.npz",
+    "assets/source_data/ebm_mixture_pcd50_43.npz",
+    "assets/source_data/ebm_mixture_pcd50_44.npz",
+    "assets/source_data/ebm_mixture_quadrature_mle_42.npz",
+    "assets/source_data/ebm_mixture_quadrature_mle_43.npz",
+    "assets/source_data/ebm_mixture_quadrature_mle_44.npz",
+    "assets/source_data/ebm_mixture_replay20_42.npz",
+    "assets/source_data/ebm_mixture_replay20_43.npz",
+    "assets/source_data/ebm_mixture_replay20_44.npz",
+    "assets/source_data/ebm_moons_cd10_42.npz",
+    "assets/source_data/ebm_moons_cd10_43.npz",
+    "assets/source_data/ebm_moons_cd10_44.npz",
+    "assets/source_data/ebm_moons_cd1_42.npz",
+    "assets/source_data/ebm_moons_cd1_43.npz",
+    "assets/source_data/ebm_moons_cd1_44.npz",
+    "assets/source_data/ebm_moons_pcd10_42.npz",
+    "assets/source_data/ebm_moons_pcd10_43.npz",
+    "assets/source_data/ebm_moons_pcd10_44.npz",
+    "assets/source_data/ebm_moons_pcd50_42.npz",
+    "assets/source_data/ebm_moons_pcd50_43.npz",
+    "assets/source_data/ebm_moons_pcd50_44.npz",
+    "assets/source_data/ebm_moons_quadrature_mle_42.npz",
+    "assets/source_data/ebm_moons_quadrature_mle_43.npz",
+    "assets/source_data/ebm_moons_quadrature_mle_44.npz",
+    "assets/source_data/ebm_moons_replay20_42.npz",
+    "assets/source_data/ebm_moons_replay20_43.npz",
+    "assets/source_data/ebm_moons_replay20_44.npz",
+    "assets/source_data/funnel_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/funnel_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/funnel_hmc_dispersed_0.12.npz",
+    "assets/source_data/funnel_mala_dispersed_0.02.npz",
+    "assets/source_data/funnel_noncentered_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/funnel_noncentered_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/funnel_noncentered_hmc_dispersed_0.12.npz",
+    "assets/source_data/funnel_noncentered_mala_dispersed_0.02.npz",
+    "assets/source_data/funnel_noncentered_nuts_dispersed_0.1.npz",
+    "assets/source_data/funnel_noncentered_rwm_dispersed_0.6.npz",
+    "assets/source_data/funnel_noncentered_slice_dispersed_1.npz",
+    "assets/source_data/funnel_noncentered_ula_dispersed_0.02.npz",
+    "assets/source_data/funnel_nuts_dispersed_0.1.npz",
+    "assets/source_data/funnel_rwm_dispersed_0.6.npz",
+    "assets/source_data/funnel_slice_dispersed_1.npz",
+    "assets/source_data/funnel_ula_dispersed_0.02.npz",
+    "assets/source_data/gaussian_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/gaussian_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/gaussian_gibbs_dispersed_1.npz",
+    "assets/source_data/gaussian_gibbs_warm_1.npz",
+    "assets/source_data/gaussian_hmc_dispersed_0.12.npz",
+    "assets/source_data/gaussian_hmc_warm_0.12.npz",
+    "assets/source_data/gaussian_mala_dispersed_0.02.npz",
+    "assets/source_data/gaussian_mala_dispersed_0.08.npz",
+    "assets/source_data/gaussian_nuts_dispersed_0.1.npz",
+    "assets/source_data/gaussian_nuts_warm_0.1.npz",
+    "assets/source_data/gaussian_rwm_dispersed_0.6.npz",
+    "assets/source_data/gaussian_rwm_warm_0.6.npz",
+    "assets/source_data/gaussian_slice_dispersed_1.npz",
+    "assets/source_data/gaussian_ula_dispersed_0.005.npz",
+    "assets/source_data/gaussian_ula_dispersed_0.02.npz",
+    "assets/source_data/gaussian_ula_dispersed_0.08.npz",
+    "assets/source_data/logistic_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/logistic_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/logistic_hmc_dispersed_0.12.npz",
+    "assets/source_data/logistic_mala_dispersed_0.02.npz",
+    "assets/source_data/logistic_nuts_dispersed_0.1.npz",
+    "assets/source_data/logistic_rwm_dispersed_0.6.npz",
+    "assets/source_data/logistic_sghmc_dispersed_0.0005.npz",
+    "assets/source_data/logistic_sghmc_dispersed_0.002.npz",
+    "assets/source_data/logistic_sgld_dispersed_0.005.npz",
+    "assets/source_data/logistic_sgld_dispersed_0.02.npz",
+    "assets/source_data/logistic_slice_dispersed_1.npz",
+    "assets/source_data/logistic_ula_dispersed_0.02.npz",
+    "assets/source_data/perturbed_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/perturbed_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/perturbed_hmc_dispersed_0.12.npz",
+    "assets/source_data/perturbed_mala_dispersed_0.02.npz",
+    "assets/source_data/perturbed_nuts_dispersed_0.1.npz",
+    "assets/source_data/perturbed_rwm_dispersed_0.6.npz",
+    "assets/source_data/perturbed_slice_dispersed_1.npz",
+    "assets/source_data/perturbed_ula_dispersed_0.02.npz",
+    "assets/source_data/regression_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/regression_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/regression_gibbs_dispersed_1.npz",
+    "assets/source_data/regression_hmc_dispersed_0.12.npz",
+    "assets/source_data/regression_mala_dispersed_0.02.npz",
+    "assets/source_data/regression_nuts_dispersed_0.1.npz",
+    "assets/source_data/regression_rwm_dispersed_0.6.npz",
+    "assets/source_data/regression_slice_dispersed_1.npz",
+    "assets/source_data/regression_ula_dispersed_0.02.npz",
+    "assets/source_data/ring_adaptive_hmc_dispersed_0.1.npz",
+    "assets/source_data/ring_adaptive_rwm_dispersed_0.6.npz",
+    "assets/source_data/ring_gibbs_dispersed_1.npz",
+    "assets/source_data/ring_gibbs_warm_1.npz",
+    "assets/source_data/ring_hmc_dispersed_0.12.npz",
+    "assets/source_data/ring_hmc_warm_0.12.npz",
+    "assets/source_data/ring_mala_dispersed_0.02.npz",
+    "assets/source_data/ring_nuts_dispersed_0.1.npz",
+    "assets/source_data/ring_nuts_warm_0.1.npz",
+    "assets/source_data/ring_parallel_tempering_dispersed_0.6.npz",
+    "assets/source_data/ring_rwm_dispersed_0.6.npz",
+    "assets/source_data/ring_rwm_dispersed_2.5.npz",
+    "assets/source_data/ring_rwm_warm_0.6.npz",
+    "assets/source_data/ring_slice_dispersed_1.npz",
+    "assets/source_data/ring_ula_dispersed_0.02.npz",
+    "docs/results.md",
+    "docs/theory.md",
+    "results/reference/ebm/ebm_mixture_cd10_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_cd10_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_cd10_44/metrics.json",
+    "results/reference/ebm/ebm_mixture_cd1_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_cd1_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_cd1_44/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd10_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd10_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd10_44/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd50_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd50_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_pcd50_44/metrics.json",
+    "results/reference/ebm/ebm_mixture_quadrature_mle_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_quadrature_mle_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_quadrature_mle_44/metrics.json",
+    "results/reference/ebm/ebm_mixture_replay20_42/metrics.json",
+    "results/reference/ebm/ebm_mixture_replay20_43/metrics.json",
+    "results/reference/ebm/ebm_mixture_replay20_44/metrics.json",
+    "results/reference/ebm/ebm_moons_cd10_42/metrics.json",
+    "results/reference/ebm/ebm_moons_cd10_43/metrics.json",
+    "results/reference/ebm/ebm_moons_cd10_44/metrics.json",
+    "results/reference/ebm/ebm_moons_cd1_42/metrics.json",
+    "results/reference/ebm/ebm_moons_cd1_43/metrics.json",
+    "results/reference/ebm/ebm_moons_cd1_44/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd10_42/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd10_43/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd10_44/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd50_42/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd50_43/metrics.json",
+    "results/reference/ebm/ebm_moons_pcd50_44/metrics.json",
+    "results/reference/ebm/ebm_moons_quadrature_mle_42/metrics.json",
+    "results/reference/ebm/ebm_moons_quadrature_mle_43/metrics.json",
+    "results/reference/ebm/ebm_moons_quadrature_mle_44/metrics.json",
+    "results/reference/ebm/ebm_moons_replay20_42/metrics.json",
+    "results/reference/ebm/ebm_moons_replay20_43/metrics.json",
+    "results/reference/ebm/ebm_moons_replay20_44/metrics.json",
+    "results/reference/sampling/banana_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/banana_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/banana_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/banana_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/banana_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/banana_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/banana_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/banana_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/funnel_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/funnel_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/funnel_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/funnel_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/funnel_noncentered_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/funnel_noncentered_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/funnel_noncentered_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/funnel_noncentered_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/funnel_noncentered_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/funnel_noncentered_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/funnel_noncentered_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/funnel_noncentered_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/funnel_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/funnel_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/funnel_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/funnel_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/gaussian_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/gaussian_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/gaussian_gibbs_dispersed_1/metrics.json",
+    "results/reference/sampling/gaussian_gibbs_warm_1/metrics.json",
+    "results/reference/sampling/gaussian_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/gaussian_hmc_warm_0.12/metrics.json",
+    "results/reference/sampling/gaussian_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/gaussian_mala_dispersed_0.08/metrics.json",
+    "results/reference/sampling/gaussian_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/gaussian_nuts_warm_0.1/metrics.json",
+    "results/reference/sampling/gaussian_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/gaussian_rwm_warm_0.6/metrics.json",
+    "results/reference/sampling/gaussian_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/gaussian_ula_dispersed_0.005/metrics.json",
+    "results/reference/sampling/gaussian_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/gaussian_ula_dispersed_0.08/metrics.json",
+    "results/reference/sampling/logistic_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/logistic_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/logistic_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/logistic_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/logistic_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/logistic_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/logistic_sghmc_dispersed_0.0005/metrics.json",
+    "results/reference/sampling/logistic_sghmc_dispersed_0.002/metrics.json",
+    "results/reference/sampling/logistic_sgld_dispersed_0.005/metrics.json",
+    "results/reference/sampling/logistic_sgld_dispersed_0.02/metrics.json",
+    "results/reference/sampling/logistic_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/logistic_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/perturbed_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/perturbed_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/perturbed_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/perturbed_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/perturbed_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/perturbed_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/perturbed_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/perturbed_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/regression_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/regression_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/regression_gibbs_dispersed_1/metrics.json",
+    "results/reference/sampling/regression_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/regression_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/regression_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/regression_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/regression_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/regression_ula_dispersed_0.02/metrics.json",
+    "results/reference/sampling/ring_adaptive_hmc_dispersed_0.1/metrics.json",
+    "results/reference/sampling/ring_adaptive_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/ring_gibbs_dispersed_1/metrics.json",
+    "results/reference/sampling/ring_gibbs_warm_1/metrics.json",
+    "results/reference/sampling/ring_hmc_dispersed_0.12/metrics.json",
+    "results/reference/sampling/ring_hmc_warm_0.12/metrics.json",
+    "results/reference/sampling/ring_mala_dispersed_0.02/metrics.json",
+    "results/reference/sampling/ring_nuts_dispersed_0.1/metrics.json",
+    "results/reference/sampling/ring_nuts_warm_0.1/metrics.json",
+    "results/reference/sampling/ring_parallel_tempering_dispersed_0.6/metrics.json",
+    "results/reference/sampling/ring_rwm_dispersed_0.6/metrics.json",
+    "results/reference/sampling/ring_rwm_dispersed_2.5/metrics.json",
+    "results/reference/sampling/ring_rwm_warm_0.6/metrics.json",
+    "results/reference/sampling/ring_slice_dispersed_1/metrics.json",
+    "results/reference/sampling/ring_ula_dispersed_0.02/metrics.json"
+  ],
+  "javascript_errors": [],
+  "mobile_width": 390,
+  "transport": "Local HTTP, matching the user-facing web server",
+  "scope": "All enabled finite selector combinations. Continuous/long sliders use endpoints and middle; discrete sliders with at most thirteen positions use every position, with joint slider combinations. Visible tables, byte-exact served images, local links, playback and mobile layouts are verified. Numerical/asset-to-model oracles are recorded by the lab-specific validators, not inferred from successful rendering."
+}

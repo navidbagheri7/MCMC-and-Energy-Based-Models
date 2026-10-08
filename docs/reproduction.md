@@ -44,3 +44,6 @@ install its Chromium runtime into your chosen external cache, then run
 `python scripts/check_explorer_browser.py`. It checks all 120 presets, 252 exact
 chain replay states, 28 independent live calculations and eight mobile concept
 areas. Browser tools are not runtime sampling/model dependencies.
+
+See the [user interaction audit](demo_review.md) for the HTTP selector, slider,
+asset and numerical verification commands and their precise scope.
