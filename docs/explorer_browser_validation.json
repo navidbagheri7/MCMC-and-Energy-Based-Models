@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "html_sha256": "882b026f230ed1ff02d0fc93ac403e38815295332ba3c6dcf7df2ad05415b40e",
+  "html_sha256": "3bc99d410b68e907ea9aa22cdc6aeae13b20a0de9eafa6eaab27c3bb13136859",
   "presets": [
     {
       "group": "Chain diagnostics",

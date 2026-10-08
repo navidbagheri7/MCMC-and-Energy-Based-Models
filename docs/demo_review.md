@@ -49,3 +49,13 @@ checks the expanded mobile layout:
 python scripts/check_demo_details.py
 python scripts/validate_release.py
 ```
+
+## Sampling-distribution presentation
+
+The explorer now defaults to a real Gaussian sampling example. New sample-cloud
+and trajectory modes, focused/full recorded windows, target contours, reference
+marginals and explicit out-of-view counts are checked against saved original
+chain arrays. [Start with the sampling walkthrough](sampling_walkthrough.md).
+The eight target views are independently verified by
+`python scripts/validate_target_views.py`; see
+[target-geometry results](target_views_validation.json).

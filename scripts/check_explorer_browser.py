@@ -19,6 +19,7 @@ def main():
         page = browser.new_page(viewport=dict(width=1380, height=1024))
         page.on("pageerror", lambda err: errors.append(str(err)))
         page.goto(Path("docs/explorer.html").resolve().as_uri())
+        page.get_by_role("tab", name="Sampler mechanics", exact=True).click()
         for rho in [0, 0.5, 0.8, 0.98]:
             for eta in [0.001, 0.02, 0.05, 0.5]:
                 page.locator("#rho").fill(str(rho))
@@ -98,6 +99,34 @@ def main():
             'document.querySelector("#figure").complete && document.querySelector("#figure").naturalWidth>0'
         )
         page.screenshot(path="assets/previews/energy_desktop.png", full_page=True)
+        for concept, task, preset, filename in [
+            (
+                "Chain diagnostics",
+                "gaussian",
+                "gibbs · dispersed · preset 1",
+                "sampling_gaussian.png",
+            ),
+            (
+                "Multimodality and tempering",
+                "ring",
+                "parallel_tempering · dispersed · preset 0.6",
+                "sampling_ring.png",
+            ),
+            (
+                "Geometry and reparameterization",
+                "banana",
+                "hmc · dispersed · preset 0.12",
+                "sampling_banana.png",
+            ),
+        ]:
+            page.get_by_role("tab", name=concept, exact=True).click()
+            page.select_option("#task", task)
+            page.select_option("#preset", preset)
+            page.select_option("#sample-view", "cloud")
+            page.select_option("#plot-window", "focus")
+            page.locator("#draw").fill("2000")
+            page.screenshot(path="assets/previews/" + filename, full_page=True)
+        page.get_by_role("tab", name="Energy-based learning", exact=True).click()
         page.set_viewport_size(dict(width=390, height=844))
         page.screenshot(path="assets/previews/explorer_mobile.png", full_page=True)
         browser.close()

@@ -163,41 +163,225 @@ function stop() {
     $("play").textContent = "Play retained chain states";
 }
 
+const descriptions = {
+    gaussian: ["Correlated Gaussian", "A tilted 2D Gaussian: mean (2, −2), unit marginal variances and correlation 0.95. A correct sampler must recover both the ellipse and the two bell-shaped marginals.", "x₁", "x₂"],
+    perturbed: ["Wavy Gaussian", "The original coursework target: a correlated Gaussian multiplied by exp(cos(x₁) + sin(x₂)). The waves reshape the density. Independent rejection draws supply the reference.", "x₁", "x₂"],
+    ring: ["Eight-mode Gaussian mixture", "Eight Gaussian islands on a radius-three ring, with equal weights and component standard deviation 0.35. Sampling one island well is not the same as discovering all eight.", "x₁", "x₂"],
+    banana: ["Banana distribution", "Draw u ∼ Normal(0, 4) and v ∼ Normal(0, 1); then x₁ = u and x₂ = v + 0.25(u² − 4). The target bends into a banana, which makes straight proposals inefficient.", "x₁", "x₂"],
+    funnel: ["Neal's funnel, centered", "Draw y ∼ Normal(0, 9), then z | y ∼ Normal(0, exp(y)). The narrow neck and very wide tails make one fixed step size difficult. The axes are original-space y and z.", "y", "z"],
+    funnel_noncentered: ["The same funnel, non-centered", "Sample independent y ∼ Normal(0, 9) and u ∼ Normal(0, 1), then display z = exp(y/2)u. This is the same original-space distribution as the centered funnel, sampled in easier coordinates.", "y", "z"],
+    regression: ["Bayesian regression posterior", "Diabetes regression has eleven posterior coefficients including the intercept. This plot shows the exact 2D marginal of the first two coefficients, not a slice through the eleven-dimensional density.", "Intercept", "First feature coefficient"],
+    logistic: ["Bayesian classification posterior", "Wisconsin Diagnostic classification has 31 posterior coefficients including the intercept. These are the first two sampled coefficients; no exact 2D posterior marginal is claimed. Predictive performance uses all coefficients.", "Intercept", "First feature coefficient"]
+};
+const explanations = {
+    rwm: "Metropolis proposes a symmetric random step and accepts using the target-density ratio. Rejected proposals repeat the current state.",
+    adaptive_rwm: "Adaptive Metropolis tunes its proposal scale during warmup, then freezes it for the retained samples shown here.",
+    gibbs: "Gibbs samples exact conditional distributions: one Gaussian coordinate at a time, or an alternating mixture-label/position update for the ring. Exact conditionals do not guarantee fast movement between islands.",
+    slice: "Slice sampling draws a horizontal density level, brackets a coordinate interval and samples inside the slice.",
+    ula: "ULA takes a gradient step toward higher density plus Gaussian noise. There is no Metropolis correction: a stable chain can still sample a biased distribution.",
+    mala: "MALA corrects the Langevin proposal using the forward and reverse Gaussian proposal densities. The correction targets the intended distribution.",
+    hmc: "HMC draws momentum, follows a leapfrog trajectory and accepts or rejects the endpoint using the Hamiltonian energy change. The plotted path joins retained endpoints, not the internal leapfrog steps.",
+    adaptive_hmc: "Adaptive HMC learns a step size and diagonal geometry during warmup. Retained draws use the frozen Hamiltonian transition with a Metropolis correction.",
+    nuts: "NUTS adaptively builds Hamiltonian trajectories until they turn back. This uses Pyro's implementation; the cloud contains retained posterior draws.",
+    parallel_tempering: "Parallel tempering runs eight temperatures and swaps neighboring replicas. Only the cold replica's samples estimate the target; the additional replicas have additional computation cost.",
+    sgld: "SGLD uses an unbiased minibatch likelihood gradient and a decreasing Langevin step. These finite-budget samples are approximate; diagnostics alone cannot establish posterior accuracy.",
+    sghmc: "The pedagogical SGHMC preset uses minibatch gradients, momentum and friction with a zero gradient-noise correction approximation. It is explicitly compared with full-gradient NUTS."
+};
+
+function contour(ctx, target, px, py) {
+    if (!target.density) return;
+    const grid = target.density,
+        n = grid.length;
+    const gx = j => target.bounds[0][0] + j / (n - 1) * (target.bounds[0][1] - target.bounds[0][0]);
+    const gy = i => target.bounds[1][0] + i / (n - 1) * (target.bounds[1][1] - target.bounds[1][0]);
+    ctx.strokeStyle = "#81939d";
+    ctx.lineWidth = 1.3;
+    ctx.globalAlpha = .65;
+    for (const level of [.015, .08, .3, .7]) {
+        ctx.beginPath();
+        for (let i = 0; i < n - 1; i++)
+            for (let j = 0; j < n - 1; j++) {
+                const vertices = [
+                    [gx(j), gy(i)],
+                    [gx(j + 1), gy(i)],
+                    [gx(j + 1), gy(i + 1)],
+                    [gx(j), gy(i + 1)]
+                ];
+                const values = [grid[i][j], grid[i][j + 1], grid[i + 1][j + 1], grid[i + 1][j]];
+                const intersections = [];
+                for (let k = 0; k < 4; k++) {
+                    const l = (k + 1) % 4;
+                    if ((values[k] >= level) === (values[l] >= level)) continue;
+                    const t = (level - values[k]) / (values[l] - values[k]);
+                    intersections.push(vertices[k].map((v, a) => v + t * (vertices[l][a] - v)));
+                }
+                for (let k = 0; k + 1 < intersections.length; k += 2) {
+                    ctx.moveTo(px(intersections[k][0]), py(intersections[k][1]));
+                    ctx.lineTo(px(intersections[k + 1][0]), py(intersections[k + 1][1]));
+                }
+            }
+        ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+}
+
+function marginalPlot(row, indices, draw, bounds) {
+    const ctx = $("marginal-canvas").getContext("2d"),
+        labels = descriptions[row.task];
+    ctx.clearRect(0, 0, 680, 320);
+    const output = [];
+    for (let axis = 0; axis < 2; axis++) {
+        const [lo, hi] = bounds[axis], width = (hi - lo) / 40;
+        const bars = indices.map(index => {
+            const counts = Array(40).fill(0);
+            for (const point of row.points[index].slice(0, draw)) {
+                if (point[axis] >= lo && point[axis] <= hi) counts[Math.min(39, Math.floor((point[axis] - lo) / width))]++;
+            }
+            return {
+                chain: index,
+                counts,
+                density: counts.map(n => n / (draw * width))
+            };
+        });
+        const reference = evidence.targets[row.task].marginal_reference?.[axis];
+        const peak = Math.max(1e-12, ...bars.flatMap(b => b.density), ...(reference ? reference.density : []));
+        const left = 55 + axis * 335,
+            bottom = 250,
+            height = 190,
+            w = 260;
+        const px = x => left + (x - lo) / (hi - lo) * w,
+            py = y => bottom - height * y / peak;
+        ctx.fillStyle = "#587082";
+        ctx.font = "13px system-ui";
+        ctx.fillText(labels[axis + 2] + " marginal density", left, 30);
+        ctx.fillText(lo.toPrecision(3), left, 275);
+        ctx.fillText(hi.toPrecision(3), left + 220, 275);
+        ctx.fillText("Density", left, 50);
+        ctx.strokeStyle = "#dce7eb";
+        ctx.beginPath();
+        ctx.moveTo(left, 55);
+        ctx.lineTo(left, bottom);
+        ctx.lineTo(left + w, bottom);
+        ctx.stroke();
+        ctx.save();
+        ctx.beginPath();
+        ctx.rect(left, 55, w, height + 5);
+        ctx.clip();
+        for (const bar of bars) {
+            ctx.fillStyle = colors[bar.chain];
+            ctx.globalAlpha = indices.length === 1 ? .55 : .22;
+            bar.density.forEach((v, k) => ctx.fillRect(px(lo + k * width), py(v), w / 40, bottom - py(v)));
+        }
+        ctx.globalAlpha = 1;
+        if (reference) {
+            ctx.strokeStyle = "#183246";
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            reference.density.forEach((v, k) => {
+                const x = (reference.edges[k] + reference.edges[k + 1]) / 2;
+                k ? ctx.lineTo(px(x), py(v)) : ctx.moveTo(px(x), py(v));
+            });
+            ctx.stroke();
+        }
+        ctx.restore();
+        output.push({
+            bounds: [lo, hi],
+            bin_width: width,
+            chains: bars
+        });
+    }
+    $("marginal-caption").textContent = evidence.targets[row.task].marginal_reference ? "Each chain has its own colored histogram. Black reference: 100,000 independent exact draws, fixed seed 800000; the curve spans the target-focus window. Repeated samples count as repeated draws. A matching pair of marginals does not prove joint mixing." : "Sampled coefficient marginals only. No exact reference curve is available for this 31-dimensional posterior. Use the predictive results and full-chain diagnostics alongside these projections.";
+    return output;
+}
+
 function chain() {
     const row = selected();
     if (row.kind !== "sampling") return;
     const draw = Number($("draw").value),
-        selectedChain = $("chain").value,
-        points = row.points.flat(),
-        mins = [Math.min(...points.map(p => p[0])), Math.min(...points.map(p => p[1]))],
-        maxs = [Math.max(...points.map(p => p[0])), Math.max(...points.map(p => p[1]))],
-        center = mins.map((v, i) => (v + maxs[i]) / 2),
-        span = Math.max(maxs[0] - mins[0], maxs[1] - mins[1], 1e-6) * 1.1,
-        scale = 440 / span,
-        ctx = $("chain-canvas").getContext("2d"),
-        px = x => 340 + (x - center[0]) * scale,
-        py = y => 270 - (y - center[1]) * scale;
+        selectedChain = $("chain").value;
+    const indices = selectedChain === "all" ? [0, 1, 2, 3] : [Number(selectedChain)];
+    const target = evidence.targets[row.task];
+    if (!row.fullBounds) {
+        const points = row.points.flat();
+        row.fullBounds = [0, 1].map(axis => {
+            const values = points.map(p => p[axis]),
+                lo = Math.min(...values),
+                hi = Math.max(...values);
+            const pad = Math.max(hi - lo, 1e-6) * .05;
+            return [lo - pad, hi + pad];
+        });
+    }
+    const bounds = $("plot-window").value === "focus" ? target.bounds : row.fullBounds;
+    const ctx = $("chain-canvas").getContext("2d");
+    const px = x => 75 + (x - bounds[0][0]) / (bounds[0][1] - bounds[0][0]) * 540;
+    const py = y => 450 - (y - bounds[1][0]) / (bounds[1][1] - bounds[1][0]) * 395;
     ctx.clearRect(0, 0, 680, 540);
-    row.points.forEach((values, i) => {
-        if (selectedChain !== "all" && Number(selectedChain) !== i) return;
-        ctx.strokeStyle = colors[i];
-        ctx.globalAlpha = .3;
-        ctx.lineWidth = .8;
+    ctx.strokeStyle = "#dce7eb";
+    ctx.beginPath();
+    ctx.rect(75, 55, 540, 395);
+    ctx.stroke();
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(75, 55, 540, 395);
+    ctx.clip();
+    contour(ctx, target, px, py);
+    let outside = 0;
+    const clouds = [];
+    for (const i of indices) {
+        const points = row.points[i].slice(0, draw);
+        outside += points.filter(p => p.some((v, a) => v < bounds[a][0] || v > bounds[a][1])).length;
+        ctx.strokeStyle = ctx.fillStyle = colors[i];
+        ctx.globalAlpha = $("sample-view").value === "paths" ? .35 : .4;
+        ctx.lineWidth = .9;
         ctx.beginPath();
-        values.slice(0, draw).forEach((p, j) => j ? ctx.lineTo(px(p[0]), py(p[1])) : ctx.moveTo(px(p[0]), py(p[1])));
-        ctx.stroke();
+        if ($("sample-view").value === "paths") {
+            points.forEach((p, j) => j ? ctx.lineTo(px(p[0]), py(p[1])) : ctx.moveTo(px(p[0]), py(p[1])));
+            ctx.stroke();
+        } else {
+            points.forEach(p => {
+                ctx.moveTo(px(p[0]) + 1.7, py(p[1]));
+                ctx.arc(px(p[0]), py(p[1]), 1.7, 0, Math.PI * 2);
+            });
+            ctx.fill();
+        }
         ctx.globalAlpha = 1;
-        ctx.fillStyle = colors[i];
-        let p = values[Math.min(draw - 1, values.length - 1)];
         ctx.beginPath();
-        ctx.arc(px(p[0]), py(p[1]), 4, 0, 2 * Math.PI);
+        const last = points[points.length - 1];
+        ctx.arc(px(last[0]), py(last[1]), 4, 0, Math.PI * 2);
         ctx.fill();
-    });
+        clouds.push({
+            chain: i,
+            draws: points.length
+        });
+    }
+    ctx.restore();
     ctx.fillStyle = "#587082";
     ctx.font = "12px system-ui";
-    ctx.fillText(`x: ${(center[0]-span/2).toFixed(1)}…${(center[0]+span/2).toFixed(1)}; y: ${(center[1]-span/2).toFixed(1)}…${(center[1]+span/2).toFixed(1)}; equal axes, full extent`, 20, 525);
+    for (let k = 0; k <= 4; k++) {
+        const x = bounds[0][0] + k / 4 * (bounds[0][1] - bounds[0][0]);
+        const y = bounds[1][0] + k / 4 * (bounds[1][1] - bounds[1][0]);
+        ctx.fillText(x.toPrecision(3), px(x) - 14, 475);
+        ctx.fillText(y.toPrecision(3), 12, py(y) + 4);
+    }
+    const description = descriptions[row.task];
+    ctx.fillText(description[2] + " →", 275, 510);
+    ctx.fillText(description[3] + " ↑", 75, 35);
+    $("distribution-title").textContent = description[0];
+    $("target-explanation").textContent = description[1];
+    $("algorithm-explanation").textContent = explanations[row.metrics.method];
     $("draw-value").textContent = draw;
-    $("chain-caption").textContent = "Replay of unthinned retained states after warmup. Full-draw axes stay fixed during playback. Large excursions can compress the view; they are retained. Non-centered funnel coordinates are transformed to the original funnel before visualization and diagnostics.";
+    $("chain-caption").textContent = `${indices.length * draw} retained samples accumulated (${draw} per selected chain). ${outside} samples lie outside the current plot window. Axes have independent, labeled scales. ${target.scope} Warmup is excluded; this is replay of actual recorded sampling.`;
+    const histograms = marginalPlot(row, indices, draw, bounds);
+    window.sampleViewEvidence = {
+        name: row.name,
+        draw,
+        bounds,
+        outside,
+        displayed: indices.length * draw,
+        clouds,
+        histograms,
+        view: $("sample-view").value
+    };
     window.replayEvidence = {
         name: row.name,
         draw,
@@ -215,6 +399,12 @@ function render() {
     $("figure").src = row.image;
     $("figure").alt = row.name + " diagnostics";
     $("raw").textContent = JSON.stringify(m, null, 2);
+    $("predictive-results").replaceChildren();
+    if (m.predictive) {
+        $("predictive-results").append(node("h2", "What can these posterior samples predict?"));
+        const p = m.predictive.test;
+        $("predictive-results").append(node("p", row.task === "regression" ? `Held-out Diabetes RMSE (standardized target): ${fmt(p.rmse_standardized)}. Predictive interval coverage: ${fmt(100*p.predictive_interval_95_coverage)}%.` : `Held-out Wisconsin Diagnostic AUROC: ${fmt(p.roc_auc)}. Log loss: ${fmt(p.log_loss)}. Brier score: ${fmt(p.brier_score)}.`));
+    }
     $("source").href = row.source;
     $("numeric").href = row.numeric;
     $("scope").textContent = m.scope + (row.kind === "energy" ? " " + m.integrability : "");
@@ -229,7 +419,7 @@ function render() {
             ["Seconds incl. warmup", d.total_sampling_and_warmup_seconds]
         ]);
         $("draw").max = row.points[0].length;
-        $("draw").value = Math.min(500, row.points[0].length);
+        $("draw").value = row.points[0].length;
         chain();
     } else numbers("numbers", [
         ["Selected update", m.selected_step],
@@ -256,6 +446,7 @@ function render() {
 
 function presets() {
     options("preset", candidates().map(r => r.preset));
+    if (group === "Chain diagnostics" && $("task").value === "gaussian") $("preset").value = "gibbs · dispersed · preset 1";
     render();
 }
 
@@ -282,11 +473,16 @@ $("task").addEventListener("change", presets);
 $("preset").addEventListener("change", render);
 $("draw").addEventListener("input", chain);
 $("chain").addEventListener("change", chain);
+["sample-view", "plot-window"].forEach(id => $(id).addEventListener("change", chain));
 ["rho", "eta", "h", "steps"].forEach(id => $(id).addEventListener("input", mechanics));
 $("play").addEventListener("click", () => {
     if (timer) {
         stop();
         return;
+    }
+    if (Number($("draw").value) >= Number($("draw").max)) {
+        $("draw").value = 1;
+        chain();
     }
     $("play").textContent = "Pause";
     timer = setInterval(() => {
@@ -304,4 +500,4 @@ $("chain-legend").replaceChildren(...colors.map((color, i) => {
     e.style.color = color;
     return e;
 }));
-select(groups[0]);
+select("Chain diagnostics");

@@ -57,5 +57,19 @@
     "wheel_runtime_files_verified": 11,
     "runtime_tests_configs_notebooks_measurements_unchanged_from_validated_release": true,
     "scope": "These fresh local archives include the corrected/audited demos and their verification tools. All HTTP-audited browser assets and source links, the HTML and checking tools match the checkout byte-for-byte. The baseline artifact hashes and execution checks above are preserved; notebooks and scientific runtime are unchanged. This follow-up verifies content and browser interaction, without claiming new notebook executions or model fitting."
+  },
+  "sampling_distribution_followup": {
+    "status": "passed",
+    "artifacts": {
+      "sampling_energy_lab-1.0.0.tar.gz": "6666fdb0bdbcaf4da03810d2fdc080a76344e18ae10bfc3ff0b689a35857668d",
+      "sampling_energy_lab-1.0.0-py3-none-any.whl": "a9878ef11fa810e4125fa4d83144a31d218dbc20991eb4cfcaa819888e567829"
+    },
+    "browser_and_evidence_files_verified": 376,
+    "wheel_runtime_files_verified": 11,
+    "selector_combinations": 1717,
+    "slider_checks": 5121,
+    "play_pause_checks": 1680,
+    "runtime_tests_configs_notebooks_measurements_unchanged_from_validated_release": true,
+    "scope": "New distribution clouds, independently validated target contours and reference marginals, exact sample-array histogram checks across every enabled control combination, explanatory walkthrough and previews. Fresh source archive contains the tested current assets byte-for-byte. This UI follow-up preserves baseline scientific outcomes and does not claim new model fitting or notebook executions."
   }
 }

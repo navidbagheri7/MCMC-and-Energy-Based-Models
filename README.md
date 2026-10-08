@@ -9,13 +9,15 @@ ArviZ rank diagnostics, with real-data posterior prediction and normalized 2D
 neural energy models. Methods are selected for what they explain; a newer name
 alone does not establish better performance.
 
-![Interactive sampler mechanics](assets/previews/mechanics_desktop.png)
+![Gibbs samples recovering a correlated Gaussian](assets/previews/sampling_gaussian.png)
 
 Open the [eight-concept explorer](docs/explorer.html) directly in your browser.
 It needs no GPU, login or external service. For an HTTP preview, run
 `python -m http.server 8000` from this directory and open
-`http://localhost:8000/docs/explorer.html`. It includes live ULA bias/Hamiltonian
-calculations, exact replay of recorded chain states, every measured preset and
+`http://localhost:8000/docs/explorer.html`. It starts with actual Gibbs samples over Gaussian target contours and marginal
+histograms. The [sampling walkthrough](docs/sampling_walkthrough.md) explains
+concrete Gaussian, mixture and curved-target comparisons. It includes live ULA
+bias/Hamiltonian calculations, exact replay of recorded chain states, every measured preset and
 all fitting seeds. [Hosting instructions](docs/publication.md) explain how to
 share the same demo through GitHub Pages after you publish.
 

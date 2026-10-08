@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "targets": [
+    {
+      "target": "gaussian",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "perturbed",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "ring",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "banana",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "funnel",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "funnel_noncentered",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "regression",
+      "density_grid_values": 8281,
+      "exact_reference_draws": 100000,
+      "reference_seed": 800000
+    },
+    {
+      "target": "logistic",
+      "scope": "Approximate viewing window only; no exact reference invented"
+    }
+  ],
+  "scope": "Embedded target evidence equals its public JSON. Every contour-grid value matches an independent SciPy density expression; focus bounds and both reference marginals match independently reproduced exact draws. Regression uses a covariance submatrix for a true marginal; transformed funnels use original-space density. Logistic has no invented exact marginal."
+}

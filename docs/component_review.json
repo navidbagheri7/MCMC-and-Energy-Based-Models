@@ -23,8 +23,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "8c9fd3a30cec812bbbafa79d3c268b34701a7a1b41c2e8d205b2f94c2efef0e6",
+      "sha256": "b47e11f38dc691b73ab71793c34bbc62dd2a2ccd4fb43c5e8cdc29925bcef76a",
       "kind": ".md"
+    },
+    {
+      "path": "assets/explorer/target_views.json",
+      "sha256": "66983e3192fa30083d608d7d6aaf6553eb4f6d49d485a9e07c634bcc22dfbc2f",
+      "kind": ".json"
     },
     {
       "path": "configs/ebm.json",
@@ -48,7 +53,7 @@
     },
     {
       "path": "docs/demo_controls_validation.json",
-      "sha256": "6cbd3dbbe6ecf734b60fc3d623e543afdde840925c31d8c1c6e0be27597d1379",
+      "sha256": "9bbe67145a5d0a48559be8969a4fb5fcd20afeb9c9b6d8415d7dd805406005c3",
       "kind": ".json"
     },
     {
@@ -58,7 +63,7 @@
     },
     {
       "path": "docs/demo_review.md",
-      "sha256": "658aca9c99c7b44cf98f3560ebd4f133faec26c3ff99459e7c2a88fc87d8c2f2",
+      "sha256": "ea85553eff95b115429f2dbf3f720592740757ec69463cb214c34c871198ca96",
       "kind": ".md"
     },
     {
@@ -73,12 +78,12 @@
     },
     {
       "path": "docs/explorer_browser_validation.json",
-      "sha256": "293ddd20e735b91c0106015c3b3a95d22da6e1f4f732414a25dc6638b6a69b5a",
+      "sha256": "246091630f04a0925deccf0e81b26b750585690b0428af6a82d23222770a85ab",
       "kind": ".json"
     },
     {
       "path": "docs/explorer_manifest.json",
-      "sha256": "4cc68007be3213fd419117f288a423b66541cb3901014f7b55cbefe04cd5bf46",
+      "sha256": "849ac2a379fdba9d5ea684d1b0fa277eb96c618fcd758bb25ac8bc6a5bf13f69",
       "kind": ".json"
     },
     {
@@ -105,6 +110,16 @@
       "path": "docs/results.md",
       "sha256": "5e85af8681f6ed1ec2df9864bd14031b0109f13cf5b434b2e1dfc350571d3bc8",
       "kind": ".md"
+    },
+    {
+      "path": "docs/sampling_walkthrough.md",
+      "sha256": "46480cb37329e0db185a28b7e58e59a84eb6b6d274a5eb2358a7534c47dc5c6a",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/target_views_validation.json",
+      "sha256": "e3506c6d7805b79c129934dbe37729ab824ae33686385aeecb5f92be8993d545",
+      "kind": ".json"
     },
     {
       "path": "docs/theory.md",
@@ -1753,7 +1768,7 @@
     },
     {
       "path": "scripts/check_demo_controls.py",
-      "sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+      "sha256": "18f4abb777398ee09aabf40ad7704ef7151ba3cd3fd4ea974b7297f204351e5e",
       "kind": ".py",
       "functions": [
         "digest",
@@ -1784,7 +1799,7 @@
     },
     {
       "path": "scripts/check_explorer_browser.py",
-      "sha256": "b2dcac6a8c63997859433fa1263f24768995b71dd37511c235641be88f23bacd",
+      "sha256": "3220ea497d76947e760b44aeee22429626fd837689e28bc00bb7f5809e1ac0df",
       "kind": ".py",
       "functions": [
         "main"
@@ -1792,15 +1807,16 @@
     },
     {
       "path": "scripts/create_explorer.py",
-      "sha256": "473527b5cd5dfd0b034beb0e46fc6402f05cd3af272bb5f5cef5f8ba8fa6bf5c",
+      "sha256": "485a4def19c4723323dbc3c093d73aa0dbcf12dcdd0e7c972b24c491f6d688fb",
       "kind": ".py",
       "functions": [
+        "target_views",
         "main"
       ]
     },
     {
       "path": "scripts/demo_oracle.py",
-      "sha256": "4194503786c492fa8d485a02fbbba4ab5a115938d2193421b82bf340bd9efd76",
+      "sha256": "c846bc1f6e4d5640d02360b5bde8637ac8dfd9cf682576f9fdd859414be70558",
       "kind": ".py",
       "functions": [
         "close",
@@ -1848,6 +1864,14 @@
     {
       "path": "scripts/validate_release.py",
       "sha256": "861afc8dace4c178930b8a02b3e54eae4f976b5c61d026f8bd34087fb314854b",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/validate_target_views.py",
+      "sha256": "2fff750189ed2b0b402e4b39e3fc5e4af0c0b714ccdad582073ddd794e55d3d1",
       "kind": ".py",
       "functions": [
         "main"
@@ -2005,6 +2029,6 @@
       ]
     }
   ],
-  "local_links": 84,
+  "local_links": 94,
   "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; generated evidence is independently recomputed by validate_release.py."
 }

@@ -49,7 +49,12 @@ def main():
             page = browser.new_page(viewport={"width": 1380, "height": 1024})
             page.on("pageerror", lambda err: errors.append(str(err)))
             page.goto(base + "/" + args.page)
-            page.wait_for_load_state("networkidle")
+            # Wait for the actual demo and its selected asset. Chromium's global
+            # networkidle event can miss the large embedded page's startup;
+            # every selected HTTP asset is independently checked below.
+            page.wait_for_function(
+                'window.sampleViewEvidence && document.querySelector("#figure").complete && document.querySelector("#figure").naturalWidth>0'
+            )
 
             def inspect():
                 assert not errors, errors

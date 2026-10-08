@@ -2,8 +2,13 @@
 
 import math
 import re
+from pathlib import Path
+
+import numpy as np
 
 _CACHE = None
+_SAMPLES = {}
+_TARGETS = None
 
 
 def close(text, expected):
@@ -35,7 +40,7 @@ def image_sources(page, selector, expected):
 
 
 def check(page):
-    global _CACHE
+    global _CACHE, _TARGETS
     if _CACHE is None:
         _CACHE = page.evaluate("evidence.rows.map(({points,...r})=>r)")
     if not page.locator("#preset:visible").count():
@@ -50,6 +55,40 @@ def check(page):
     image_sources(page, "#figure", [r["image"]])
     assert page.locator("#source").get_attribute("href") == r["source"]
     if r["kind"] == "sampling":
+        if _TARGETS is None:
+            _TARGETS = page.evaluate("evidence.targets")
+        if r["name"] not in _SAMPLES:
+            path = Path(__file__).resolve().parents[1] / "assets/source_data" / (r["name"] + ".npz")
+            with np.load(path, allow_pickle=False) as source:
+                _SAMPLES[r["name"]] = np.array(source["observables"][:, :, :2])
+        source = _SAMPLES[r["name"]]
+        actual = page.evaluate("window.sampleViewEvidence")
+        draw = int(page.locator("#draw").input_value())
+        chain = page.locator("#chain").input_value()
+        indices = list(range(4)) if chain == "all" else [int(chain)]
+        bounds = np.asarray(_TARGETS[task]["bounds"])
+        if page.locator("#plot-window").input_value() == "full":
+            lo, hi = source.min(axis=(0, 1)), source.max(axis=(0, 1))
+            pad = np.maximum(hi - lo, 1e-6) * 0.05
+            bounds = np.stack([lo - pad, hi + pad], axis=1)
+        np.testing.assert_allclose(actual["bounds"], bounds, rtol=1e-12, atol=1e-12)
+        points = source[indices, :draw]
+        outside = np.any((points < bounds[:, 0]) | (points > bounds[:, 1]), axis=2).sum()
+        assert actual["outside"] == outside
+        assert actual["displayed"] == len(indices) * draw
+        assert (
+            actual["name"] == r["name"]
+            and actual["view"] == page.locator("#sample-view").input_value()
+        )
+        for axis, histogram in enumerate(actual["histograms"]):
+            edges = np.linspace(*bounds[axis], 41)
+            for index, bar in zip(indices, histogram["chains"], strict=True):
+                count, _ = np.histogram(source[index, :draw, axis], edges)
+                assert bar["chain"] == index
+                np.testing.assert_array_equal(bar["counts"], count)
+                np.testing.assert_allclose(
+                    bar["density"], count / (draw * np.diff(edges)), rtol=1e-11, atol=1e-12
+                )
         d = m["diagnostics"]
 
         def maximum(xs):

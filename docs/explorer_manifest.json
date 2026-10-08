@@ -1,6 +1,6 @@
 {
   "status": "complete",
-  "html_sha256": "882b026f230ed1ff02d0fc93ac403e38815295332ba3c6dcf7df2ad05415b40e",
+  "html_sha256": "3bc99d410b68e907ea9aa22cdc6aeae13b20a0de9eafa6eaab27c3bb13136859",
   "presets": 120,
   "groups": 8,
   "bindings": {
@@ -484,9 +484,11 @@
     "results/reference/ebm/ebm_moons_replay20_44/run.json": "c64776a4683a35059ca5aec1a0965d13472f83886c302dd17f904c169e5ddd7f",
     "assets/source_data/ebm_moons_replay20_44.npz": "5d217ecf404ca280904a2ac8bbda52463531d0a96996bd66a69ec1a2c9dfc4cf",
     "assets/figures/ebm_moons_replay20_44.png": "a8f975ff4e0de1c4accf915cccf30cab280743f34d43a5db3e299c9047b49488",
-    "scripts/templates/explorer.html": "35928548084e3138eb278160f0b5bb919855557255c2d1a672746b97a3baf827",
-    "scripts/templates/explorer.js": "c1cc156cf5ef4fadfa7052a7f16914d864ff33d35bb88163f4c541dddd823c03",
-    "/home/navid.bagheri-shouraki/MCMC_project/scripts/create_explorer.py": "473527b5cd5dfd0b034beb0e46fc6402f05cd3af272bb5f5cef5f8ba8fa6bf5c"
+    "assets/explorer/target_views.json": "66983e3192fa30083d608d7d6aaf6553eb4f6d49d485a9e07c634bcc22dfbc2f",
+    "src/sampling_lab/targets.py": "3d24644fd0e2aeab3bbe8ec1f854d65e535dae734b4cab2ccfb072d211da93d6",
+    "scripts/templates/explorer.html": "01a3b26dac72d50ff8f3162bace67ea730f57f4954f818ecdacc3274a026d675",
+    "scripts/templates/explorer.js": "033fecdbbf78a9c2293ea4b6b873ff3cc4f2bf6ad8db7899b3b7aa5ed5f43dec",
+    "/home/navid.bagheri-shouraki/MCMC_project/scripts/create_explorer.py": "485a4def19c4723323dbc3c093d73aa0dbcf12dcdd0e7c972b24c491f6d688fb"
   },
   "scope": "All recorded sampler and energy protocols are selectable. Four unthinned original-space chain trajectories, full extent, replay retained draws only; changes to controls do not refit or invent an intermediate policy. Live linear Gaussian/HMC mechanics are separate analytic examples."
 }

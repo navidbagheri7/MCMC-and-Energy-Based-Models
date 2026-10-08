@@ -7,6 +7,68 @@ from pathlib import Path
 import numpy as np
 
 from sampling_lab.artifacts import sha256, write_json
+from sampling_lab.targets import Target, load_target
+
+
+def target_views():
+    """Independent target geometry and exact-draw marginals, never fitted chains."""
+    views = {}
+    for name in [
+        "gaussian",
+        "perturbed",
+        "ring",
+        "banana",
+        "funnel",
+        "funnel_noncentered",
+        "regression",
+        "logistic",
+    ]:
+        target = load_target(name)
+        if name == "logistic":
+            limits = np.stack(
+                [
+                    target.mean[:2] - 4 * np.sqrt(np.diag(target.cov)[:2]),
+                    target.mean[:2] + 4 * np.sqrt(np.diag(target.cov)[:2]),
+                ],
+                axis=1,
+            )
+            views[name] = dict(
+                bounds=limits,
+                density=None,
+                marginal_reference=None,
+                scope="First two posterior coefficients. Focus window uses training-only MAP ± four Laplace standard deviations as a viewing aid; no exact 2D posterior density or reference sample is available.",
+            )
+            continue
+        reference = target.observable(target.reference(100000, np.random.default_rng(800000)))[
+            :, :2
+        ]
+        limits = np.quantile(reference, [0.001, 0.999], axis=0).T
+        axis_x, axis_y = [np.linspace(*bounds, 91) for bounds in limits]
+        xx, yy = np.meshgrid(axis_x, axis_y)
+        points = np.stack([xx.ravel(), yy.ravel()], axis=1)
+        density_target = (
+            Target("funnel")
+            if name == "funnel_noncentered"
+            else Target("regression", 2, target.mean[:2], target.cov[:2, :2])
+            if name == "regression"
+            else target
+        )
+        log_density = density_target.log_prob(points)
+        relative = np.exp(log_density - log_density.max()).reshape(xx.shape)
+        marginals = []
+        for axis in range(2):
+            edges = np.linspace(*limits[axis], 41)
+            count, _ = np.histogram(reference[:, axis], edges)
+            marginals.append(dict(edges=edges, density=count / (len(reference) * np.diff(edges))))
+        views[name] = dict(
+            bounds=limits,
+            density=np.round(relative, 9),
+            marginal_reference=marginals,
+            reference_count=len(reference),
+            reference_seed=800000,
+            scope="Contour levels show relative target density, not credible-region probabilities. Focus bounds use the 0.1% and 99.9% quantiles of 100,000 independent exact reference draws. Reference marginal curves are finite-sample density histograms. States outside this view are counted explicitly; Full extent shows every saved state.",
+        )
+    return views
 
 
 def main():
@@ -75,7 +137,13 @@ def main():
             ]:
                 bindings[str(p)] = sha256(p)
     assert len(rows) == 120
-    evidence = dict(rows=rows)
+    views = target_views()
+    view_path = Path("assets/explorer/target_views.json")
+    write_json(view_path, views)
+    views = json.loads(view_path.read_text())
+    bindings[str(view_path)] = sha256(view_path)
+    bindings["src/sampling_lab/targets.py"] = sha256("src/sampling_lab/targets.py")
+    evidence = dict(rows=rows, targets=views)
     template = Path("scripts/templates/explorer.html")
     script = Path("scripts/templates/explorer.js")
     output = Path("docs/explorer.html")
