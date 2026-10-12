@@ -1,6 +1,6 @@
-# Sampling & Energy Lab
+# MCMC and Energy-Based Models
 
-[Interactive demo](https://navidbagheri7.github.io/sampling-energy-lab/) · [GitHub repository](https://github.com/navidbagheri7/sampling-energy-lab) · [CI checks](https://github.com/navidbagheri7/sampling-energy-lab/actions)
+[Interactive demo](https://navidbagheri7.github.io/MCMC-and-Energy-Based-Models/) · [GitHub repository](https://github.com/navidbagheri7/MCMC-and-Energy-Based-Models) · [CI checks](https://github.com/navidbagheri7/MCMC-and-Energy-Based-Models/actions)
 
 **Learn what a sampler actually targets, measure whether it mixes, and use its output for Bayesian prediction and energy-based learning.**
 
