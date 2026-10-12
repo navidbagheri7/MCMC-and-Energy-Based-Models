@@ -50,7 +50,8 @@ def main():
         c = r["config"]
         assert x.shape == (4, 2000, load_target(c["target"]).dim)
         target = targets.setdefault(c["target"], load_target(c["target"]))
-        np.testing.assert_array_equal(observed, target.observable(x))
+        # Recomputed float64 transforms can differ by a few CPU rounding units.
+        np.testing.assert_allclose(observed, target.observable(x), rtol=1e-13, atol=1e-13)
         np.testing.assert_array_equal(
             values["starts"], [target.start(i, c["seed"], c["profile"]) for i in range(4)]
         )
