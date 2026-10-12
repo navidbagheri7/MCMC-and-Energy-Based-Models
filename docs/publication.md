@@ -1,22 +1,17 @@
-# Publish the locally prepared repository
+# GitHub publication and interactive demo
 
-The owner publishes the reviewed local release. No GitHub push, remote or site
-deployment is created automatically. Code, procedural outputs and owned energy
-weights use MIT; public real-data derivatives retain their original attribution.
-Original coursework and private environments remain excluded.
+Repository: [navidbagheri7/sampling-energy-lab](https://github.com/navidbagheri7/sampling-energy-lab). Interactive explorer: [https://navidbagheri7.github.io/sampling-energy-lab/](https://navidbagheri7.github.io/sampling-energy-lab/).
 
-Create an empty repository under your account, then review the release checklist:
+The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
-```bash
-git remote add origin git@github.com:YOUR_ACCOUNT/sampling-energy-lab.git
-git push -u origin main
-git push origin v1.0.0
-```
+## Deploy the website
 
-The public explorer already works locally. To host it, choose GitHub repository
-**Settings → Pages → Deploy from a branch → main → / (root)**. The supplied
-`.nojekyll` keeps raw metric and asset paths unchanged. The demo URL becomes
-`https://YOUR_ACCOUNT.github.io/YOUR_REPOSITORY/docs/explorer.html`. Keep both
-`docs/` and `assets/` in the published tree. Add the URL to the repository's
-About/Website field and README after deployment. The README images are real
-browser previews; the HTML supplies the actual controls.
+GitHub Pages uses **GitHub Actions** as its source. Run **Actions → Publish interactive preview → Run workflow** to refresh the site after pushing changes. The workflow uses `git archive HEAD` to stage exactly the committed public tree. It preserves the repository-relative links to numerical evidence, images, rollouts and notebooks. It does not copy ignored local files.
+
+The root page opens `docs/explorer.html`.
+
+## Reproduce the research
+
+Use the installation and reproduction instructions in the README. GitHub Pages serves the recorded evidence and browser-side controls; fitting models and running Python experiments requires the documented Python environment.
+
+Existing version tags preserve the local release history. The `publication-2026-10-12` tag identifies the first published portfolio snapshot, including its website deployment configuration and repository metadata. The package versions describe the preserved scientific implementation.

@@ -1,5 +1,7 @@
 # Sampling & Energy Lab
 
+[Interactive demo](https://navidbagheri7.github.io/sampling-energy-lab/) · [GitHub repository](https://github.com/navidbagheri7/sampling-energy-lab) · [CI checks](https://github.com/navidbagheri7/sampling-energy-lab/actions)
+
 **Learn what a sampler actually targets, measure whether it mixes, and use its output for Bayesian prediction and energy-based learning.**
 
 This English laboratory rebuilds a single-coursework Langevin example into a

@@ -20,6 +20,12 @@ notebooks = ["nbformat>=5", "nbclient>=0.10", "ipykernel>=6", "jupyterlab>=4"]
 [project.scripts]
 sampling-lab = "sampling_lab.cli:main"
 
+[project.urls]
+Repository = "https://github.com/navidbagheri7/sampling-energy-lab"
+Documentation = "https://github.com/navidbagheri7/sampling-energy-lab#readme"
+Demo = "https://navidbagheri7.github.io/sampling-energy-lab/"
+Issues = "https://github.com/navidbagheri7/sampling-energy-lab/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 

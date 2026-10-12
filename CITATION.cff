@@ -18,3 +18,5 @@ keywords:
   - Hamiltonian Monte Carlo
   - energy-based models
   - contrastive divergence
+repository-code: "https://github.com/navidbagheri7/sampling-energy-lab"
+url: "https://navidbagheri7.github.io/sampling-energy-lab/"
