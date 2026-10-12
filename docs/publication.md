@@ -1,6 +1,6 @@
 # GitHub publication and interactive demo
 
-Repository: [navidbagheri7/sampling-energy-lab](https://github.com/navidbagheri7/MCMC-and-Energy-Based-Models). Interactive explorer: [https://navidbagheri7.github.io/MCMC-and-Energy-Based-Models/](https://navidbagheri7.github.io/MCMC-and-Energy-Based-Models/).
+Repository: [navidbagheri7/MCMC-and-Energy-Based-Models](https://github.com/navidbagheri7/MCMC-and-Energy-Based-Models). Interactive explorer: [https://navidbagheri7.github.io/MCMC-and-Energy-Based-Models/](https://navidbagheri7.github.io/MCMC-and-Energy-Based-Models/).
 
 The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
