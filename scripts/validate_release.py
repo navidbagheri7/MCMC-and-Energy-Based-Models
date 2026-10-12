@@ -52,9 +52,13 @@ def main():
         target = targets.setdefault(c["target"], load_target(c["target"]))
         # Recomputed float64 transforms can differ by a few CPU rounding units.
         np.testing.assert_allclose(observed, target.observable(x), rtol=1e-13, atol=1e-13)
-        np.testing.assert_array_equal(
-            values["starts"], [target.start(i, c["seed"], c["profile"]) for i in range(4)]
-        )
+        starts = [target.start(i, c["seed"], c["profile"]) for i in range(4)]
+        if c["target"] in ["logistic", "regression"]:
+            # Train-only MAP/linear solves vary slightly across CPU BLAS builds;
+            # their chain jitter still uses the same explicit seeds and profile.
+            np.testing.assert_allclose(values["starts"], starts, rtol=1e-8, atol=1e-7)
+        else:
+            np.testing.assert_array_equal(values["starts"], starts)
         truth = references.setdefault(
             c["target"],
             None
