@@ -152,7 +152,7 @@ def main():
         .replace("__EVIDENCE__", json.dumps(evidence, allow_nan=False).replace("<", "\\u003c"))
         .replace("__SCRIPT__", script.read_text())
     )
-    for p in [template, script, Path(__file__)]:
+    for p in [template, script, Path("scripts") / Path(__file__).name]:
         bindings[str(p)] = sha256(p)
     write_json(
         "docs/explorer_manifest.json",
