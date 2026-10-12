@@ -139,8 +139,10 @@ def main():
             with torch.no_grad():
                 partition = float(log_partition(model, 401, 18))
                 nll = float((model(torch.from_numpy(test)) + partition).mean())
-            np.testing.assert_allclose(partition, m["log_partition"], rtol=1e-9, atol=1e-9)
-            np.testing.assert_allclose(nll, m["test_nll"], rtol=1e-9, atol=1e-9)
+            # These likelihoods are float32 model evaluations; CPU BLAS builds
+            # may differ in the final rounding bits. Stored weights stay hash-bound.
+            np.testing.assert_allclose(partition, m["log_partition"], rtol=2e-6, atol=5e-6)
+            np.testing.assert_allclose(nll, m["test_nll"], rtol=2e-6, atol=5e-6)
             index = int(np.argmin(data["history_nll"]))
             assert int(data["history_steps"][index]) == m["selected_step"]
             np.testing.assert_allclose(
