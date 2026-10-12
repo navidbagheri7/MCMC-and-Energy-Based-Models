@@ -45,10 +45,11 @@
     },
     {
       "notebook": "notebooks/07_funnel_and_reparameterization.ipynb",
+      "sha256": "9f4ff52c9cf525c3896d244b939a416970e1d104e774f1d6a20935c2839f6481",
+      "seconds": 5.75245850160718,
+      "visual_outputs": 1,
       "executed_code_cells": 3,
-      "all_executed": true,
-      "sha256": "17921c61677e9e0dd21869520a1ccba062c7f184b1b63647ec437e8c29462500",
-      "visual_outputs": 1
+      "all_executed": true
     },
     {
       "notebook": "notebooks/08_bayesian_logistic_and_sg_gradients.ipynb",
@@ -71,5 +72,13 @@
       "sha256": "b426b4a9b3f8f9f802a69b72423bf277b451e8d6e0467e5c46a136f6c0f2e62c",
       "visual_outputs": 1
     }
-  ]
+  ],
+  "publication_correction": {
+    "date": "2026-10-12",
+    "fresh_kernel_notebooks": [
+      "notebooks/07_funnel_and_reparameterization.ipynb"
+    ],
+    "unchanged_notebooks_retaining_prior_execution_receipts": 9,
+    "scope": "Combined coverage of all listed notebook files. The portability-corrected lesson was rerun in a fresh CPU kernel; byte-unchanged lessons retain their prior successful execution receipts."
+  }
 }
