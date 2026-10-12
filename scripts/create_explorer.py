@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 import numpy as np
+from reference_draws import load_reference
 
 from sampling_lab.artifacts import sha256, write_json
 from sampling_lab.targets import Target, load_target
@@ -39,9 +40,7 @@ def target_views():
                 scope="First two posterior coefficients. Focus window uses training-only MAP ± four Laplace standard deviations as a viewing aid; no exact 2D posterior density or reference sample is available.",
             )
             continue
-        reference = target.observable(target.reference(100000, np.random.default_rng(800000)))[
-            :, :2
-        ]
+        reference = load_reference(name)[:, :2]
         limits = np.quantile(reference, [0.001, 0.999], axis=0).T
         axis_x, axis_y = [np.linspace(*bounds, 91) for bounds in limits]
         xx, yy = np.meshgrid(axis_x, axis_y)
@@ -143,6 +142,8 @@ def main():
     views = json.loads(view_path.read_text())
     bindings[str(view_path)] = sha256(view_path)
     bindings["src/sampling_lab/targets.py"] = sha256("src/sampling_lab/targets.py")
+    for reference_path in sorted(Path("assets/reference_draws").glob("*")):
+        bindings[str(reference_path)] = sha256(reference_path)
     evidence = dict(rows=rows, targets=views)
     template = Path("scripts/templates/explorer.html")
     script = Path("scripts/templates/explorer.js")
@@ -152,7 +153,13 @@ def main():
         .replace("__EVIDENCE__", json.dumps(evidence, allow_nan=False).replace("<", "\\u003c"))
         .replace("__SCRIPT__", script.read_text())
     )
-    for p in [template, script, Path("scripts") / Path(__file__).name]:
+    for p in [
+        template,
+        script,
+        Path("scripts") / Path(__file__).name,
+        Path("scripts/reference_draws.py"),
+        Path("scripts/export_reference_draws.py"),
+    ]:
         bindings[str(p)] = sha256(p)
     write_json(
         "docs/explorer_manifest.json",

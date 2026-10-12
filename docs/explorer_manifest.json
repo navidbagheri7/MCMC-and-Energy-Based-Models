@@ -488,7 +488,17 @@
     "src/sampling_lab/targets.py": "3d24644fd0e2aeab3bbe8ec1f854d65e535dae734b4cab2ccfb072d211da93d6",
     "scripts/templates/explorer.html": "01a3b26dac72d50ff8f3162bace67ea730f57f4954f818ecdacc3274a026d675",
     "scripts/templates/explorer.js": "033fecdbbf78a9c2293ea4b6b873ff3cc4f2bf6ad8db7899b3b7aa5ed5f43dec",
-    "scripts/create_explorer.py": "06594fc15f68128bd4e0b8d2fcdab158e4004f0ec365915c8175e9e71c2dd10d"
+    "scripts/create_explorer.py": "4b560d0acbaadf5e6176eb0d36d72bcda46da26a694172c6530027a56c3d7176",
+    "assets/reference_draws/banana.npz": "f684699578c7a565b8f4d280d895b65a7f9374979e70534492f16d24a55132a9",
+    "assets/reference_draws/funnel.npz": "237f905409f1a48125507a8e1e35701f1c9dceea99aac163dc832cec135638ab",
+    "assets/reference_draws/funnel_noncentered.npz": "237f905409f1a48125507a8e1e35701f1c9dceea99aac163dc832cec135638ab",
+    "assets/reference_draws/gaussian.npz": "9530daaad7c2a48c542f5e2c21bca226ccbb66431823e9549c9215399615bf9e",
+    "assets/reference_draws/manifest.json": "5e82cd3a2c584e081ab11a7fbdcd4549b646822df06291c232d6bf77cf50ea35",
+    "assets/reference_draws/perturbed.npz": "f5317f8bcf61021b9fc0819459095a010ee01521286d924d25fc88e4132a7350",
+    "assets/reference_draws/regression.npz": "8c6cbb1c190d793084a33fcf41c4fc14b37542e8905b622e8f0b49b044b5fdcc",
+    "assets/reference_draws/ring.npz": "299bacecc3acfefa019fee864e5e5b901d8cad0e08c24323de489c4214806b89",
+    "scripts/reference_draws.py": "488d142dd9c1a6e95bc54edcb95dcdf7e63f4f6d176a5a711181b885965dd224",
+    "scripts/export_reference_draws.py": "391e178b7619252fb34ff321d1d55eb3ba2b8186c195c420246bf193fe3a3e21"
   },
   "scope": "All recorded sampler and energy protocols are selectable. Four unthinned original-space chain trajectories, full extent, replay retained draws only; changes to controls do not refit or invent an intermediate policy. Live linear Gaussian/HMC mechanics are separate analytic examples."
 }

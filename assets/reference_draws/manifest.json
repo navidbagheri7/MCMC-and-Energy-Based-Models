@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "seed": 800000,
+  "draws_per_target": 100000,
+  "source_sha256": {
+    "src/sampling_lab/targets.py": "3d24644fd0e2aeab3bbe8ec1f854d65e535dae734b4cab2ccfb072d211da93d6",
+    "src/sampling_lab/experiments.py": "1cc4e85dcd542c4d6405048695077c1e6b62a3dd710ce9508bb57bfb07f83288",
+    "src/sampling_lab/diagnostics.py": "28afaf39b55256f330f94decf712104df5a7ce6628a834258bec282c14b0afa7"
+  },
+  "targets": {
+    "gaussian": {
+      "file": "assets/reference_draws/gaussian.npz",
+      "sha256": "9530daaad7c2a48c542f5e2c21bca226ccbb66431823e9549c9215399615bf9e",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "gaussian_adaptive_hmc_dispersed_0.1",
+        "gaussian_adaptive_rwm_dispersed_0.6",
+        "gaussian_gibbs_dispersed_1",
+        "gaussian_gibbs_warm_1",
+        "gaussian_hmc_dispersed_0.12",
+        "gaussian_hmc_warm_0.12",
+        "gaussian_mala_dispersed_0.02",
+        "gaussian_mala_dispersed_0.08",
+        "gaussian_nuts_dispersed_0.1",
+        "gaussian_nuts_warm_0.1",
+        "gaussian_rwm_dispersed_0.6",
+        "gaussian_rwm_warm_0.6",
+        "gaussian_slice_dispersed_1",
+        "gaussian_ula_dispersed_0.005",
+        "gaussian_ula_dispersed_0.02",
+        "gaussian_ula_dispersed_0.08"
+      ]
+    },
+    "perturbed": {
+      "file": "assets/reference_draws/perturbed.npz",
+      "sha256": "f5317f8bcf61021b9fc0819459095a010ee01521286d924d25fc88e4132a7350",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "perturbed_adaptive_hmc_dispersed_0.1",
+        "perturbed_adaptive_rwm_dispersed_0.6",
+        "perturbed_hmc_dispersed_0.12",
+        "perturbed_mala_dispersed_0.02",
+        "perturbed_nuts_dispersed_0.1",
+        "perturbed_rwm_dispersed_0.6",
+        "perturbed_slice_dispersed_1",
+        "perturbed_ula_dispersed_0.02"
+      ]
+    },
+    "ring": {
+      "file": "assets/reference_draws/ring.npz",
+      "sha256": "299bacecc3acfefa019fee864e5e5b901d8cad0e08c24323de489c4214806b89",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "ring_adaptive_hmc_dispersed_0.1",
+        "ring_adaptive_rwm_dispersed_0.6",
+        "ring_gibbs_dispersed_1",
+        "ring_gibbs_warm_1",
+        "ring_hmc_dispersed_0.12",
+        "ring_hmc_warm_0.12",
+        "ring_mala_dispersed_0.02",
+        "ring_nuts_dispersed_0.1",
+        "ring_nuts_warm_0.1",
+        "ring_parallel_tempering_dispersed_0.6",
+        "ring_rwm_dispersed_0.6",
+        "ring_rwm_dispersed_2.5",
+        "ring_rwm_warm_0.6",
+        "ring_slice_dispersed_1",
+        "ring_ula_dispersed_0.02"
+      ]
+    },
+    "banana": {
+      "file": "assets/reference_draws/banana.npz",
+      "sha256": "f684699578c7a565b8f4d280d895b65a7f9374979e70534492f16d24a55132a9",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "banana_adaptive_hmc_dispersed_0.1",
+        "banana_adaptive_rwm_dispersed_0.6",
+        "banana_hmc_dispersed_0.12",
+        "banana_mala_dispersed_0.02",
+        "banana_nuts_dispersed_0.1",
+        "banana_rwm_dispersed_0.6",
+        "banana_slice_dispersed_1",
+        "banana_ula_dispersed_0.02"
+      ]
+    },
+    "funnel": {
+      "file": "assets/reference_draws/funnel.npz",
+      "sha256": "237f905409f1a48125507a8e1e35701f1c9dceea99aac163dc832cec135638ab",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "funnel_adaptive_hmc_dispersed_0.1",
+        "funnel_adaptive_rwm_dispersed_0.6",
+        "funnel_hmc_dispersed_0.12",
+        "funnel_mala_dispersed_0.02",
+        "funnel_nuts_dispersed_0.1",
+        "funnel_rwm_dispersed_0.6",
+        "funnel_slice_dispersed_1",
+        "funnel_ula_dispersed_0.02"
+      ]
+    },
+    "funnel_noncentered": {
+      "file": "assets/reference_draws/funnel_noncentered.npz",
+      "sha256": "237f905409f1a48125507a8e1e35701f1c9dceea99aac163dc832cec135638ab",
+      "shape": [
+        100000,
+        2
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "funnel_noncentered_adaptive_hmc_dispersed_0.1",
+        "funnel_noncentered_adaptive_rwm_dispersed_0.6",
+        "funnel_noncentered_hmc_dispersed_0.12",
+        "funnel_noncentered_mala_dispersed_0.02",
+        "funnel_noncentered_nuts_dispersed_0.1",
+        "funnel_noncentered_rwm_dispersed_0.6",
+        "funnel_noncentered_slice_dispersed_1",
+        "funnel_noncentered_ula_dispersed_0.02"
+      ]
+    },
+    "regression": {
+      "file": "assets/reference_draws/regression.npz",
+      "sha256": "8c6cbb1c190d793084a33fcf41c4fc14b37542e8905b622e8f0b49b044b5fdcc",
+      "shape": [
+        100000,
+        11
+      ],
+      "dtype": "float64",
+      "matched_original_protocols": [
+        "regression_adaptive_hmc_dispersed_0.1",
+        "regression_adaptive_rwm_dispersed_0.6",
+        "regression_gibbs_dispersed_1",
+        "regression_hmc_dispersed_0.12",
+        "regression_mala_dispersed_0.02",
+        "regression_nuts_dispersed_0.1",
+        "regression_rwm_dispersed_0.6",
+        "regression_slice_dispersed_1",
+        "regression_ula_dispersed_0.02"
+      ]
+    }
+  },
+  "scope": "Original independent exact draws in observable coordinates, reconstructed and matched to all archived reference means, standardized mean errors and covariance errors before export. These preserve finite Monte Carlo evidence across LAPACK/SVD sign conventions; they are not fitted chains or analytic population moments. Logistic has no invented exact draws. Existing chains, weights and recorded scores are unchanged."
+}

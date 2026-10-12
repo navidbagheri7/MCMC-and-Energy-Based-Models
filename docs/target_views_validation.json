@@ -48,5 +48,5 @@
       "scope": "Approximate viewing window only; no exact reference invented"
     }
   ],
-  "scope": "Embedded target evidence equals its public JSON. Every contour-grid value matches an independent SciPy density expression; focus bounds and both reference marginals match independently reproduced exact draws. Regression uses a covariance submatrix for a true marginal; transformed funnels use original-space density. Logistic has no invented exact marginal."
+  "scope": "Embedded target evidence equals its public JSON. Every contour-grid value matches an independent SciPy density expression; focus bounds and both reference marginals match hash-bound original exact draws. Regression uses a covariance submatrix for a true marginal; transformed funnels use original-space density. Logistic has no invented exact marginal."
 }

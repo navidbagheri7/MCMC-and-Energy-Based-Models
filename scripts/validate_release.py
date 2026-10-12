@@ -8,6 +8,7 @@ from pathlib import Path
 import arviz as az
 import numpy as np
 import torch
+from reference_draws import load_reference
 from scipy.special import expit
 from sklearn.datasets import load_breast_cancer, load_diabetes
 from sklearn.metrics import brier_score_loss, log_loss, mean_squared_error, roc_auc_score
@@ -59,12 +60,11 @@ def main():
             np.testing.assert_allclose(values["starts"], starts, rtol=1e-8, atol=1e-7)
         else:
             np.testing.assert_array_equal(values["starts"], starts)
-        truth = references.setdefault(
-            c["target"],
-            None
-            if c["target"] == "logistic"
-            else target.observable(target.reference(100000, np.random.default_rng(800000))),
-        )
+        if c["target"] not in references:
+            references[c["target"]] = (
+                None if c["target"] == "logistic" else load_reference(c["target"])
+            )
+        truth = references[c["target"]]
         posterior = az.from_dict(posterior={"position": observed})
         d = m["diagnostics"]
         for key, func, method in [
@@ -78,6 +78,7 @@ def main():
             np.testing.assert_allclose(actual, record, rtol=1e-9, atol=1e-10, equal_nan=True)
         np.testing.assert_allclose(observed.mean((0, 1)), d["mean"], rtol=1e-12, atol=1e-12)
         if truth is not None:
+            np.testing.assert_allclose(d["reference_mean"], truth.mean(0), rtol=1e-10, atol=1e-11)
             np.testing.assert_allclose(
                 d["standardized_mean_error"],
                 (observed.mean((0, 1)) - truth.mean(0)) / truth.std(0, ddof=1),

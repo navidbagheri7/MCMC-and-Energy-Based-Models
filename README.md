@@ -113,3 +113,5 @@ Owned code and procedural outputs are MIT licensed. Real datasets retain their
 attribution and terms; original coursework stays privately preserved under
 `legacy/originals`. No GitHub push or live deployment is performed by preparing
 this local release.
+
+The source release preserves the original 100,000 independent reference draws for each of seven exactly sampleable targets in `assets/reference_draws/`. Their source hashes and original diagnostic matches are recorded in the manifest. This makes finite-sample reference diagnostics and marginal plots portable across equivalent LAPACK/SVD sign conventions. These draws are separate from fitted chains and retain Monte Carlo error; logistic regression has no invented exact reference. `python scripts/export_reference_draws.py` reconstructs them only if all original recorded diagnostic values match before writing files.

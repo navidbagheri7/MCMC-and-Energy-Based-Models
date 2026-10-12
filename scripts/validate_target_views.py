@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 
 import numpy as np
+from reference_draws import load_reference
 from scipy.special import logsumexp
 from scipy.stats import multivariate_normal, norm
 
@@ -42,7 +43,7 @@ def main():
                 }
             )
             continue
-        samples = target.observable(target.reference(100000, np.random.default_rng(800000)))[:, :2]
+        samples = load_reference(name)[:, :2]
         bounds = np.quantile(samples, [0.001, 0.999], axis=0).T
         np.testing.assert_array_equal(view["bounds"], bounds)
         x, y = np.meshgrid(*(np.linspace(*b, 91) for b in bounds))
@@ -90,7 +91,7 @@ def main():
         {
             "status": "passed",
             "targets": checked,
-            "scope": "Embedded target evidence equals its public JSON. Every contour-grid value matches an independent SciPy density expression; focus bounds and both reference marginals match independently reproduced exact draws. Regression uses a covariance submatrix for a true marginal; transformed funnels use original-space density. Logistic has no invented exact marginal.",
+            "scope": "Embedded target evidence equals its public JSON. Every contour-grid value matches an independent SciPy density expression; focus bounds and both reference marginals match hash-bound original exact draws. Regression uses a covariance submatrix for a true marginal; transformed funnels use original-space density. Logistic has no invented exact marginal.",
         },
     )
     print("Verified", len(checked), "target views and", 7 * 91**2, "density-grid values")
