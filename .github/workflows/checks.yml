@@ -26,6 +26,7 @@ jobs:
       - run: python scripts/validate_release.py
       - run: python scripts/review_components.py
       - run: python scripts/execute_notebooks.py
-      - run: sampling-lab sampling --quick --filter '"target": "gaussian"'
+      - run: |
+          sampling-lab sampling --quick --filter '"target": "gaussian"'
       - run: python -m build
       - run: python scripts/check_distribution.py --dist dist
